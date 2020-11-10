@@ -15,7 +15,7 @@ The books were originally published as e-texts at The Swedish Literature Bank. T
 
 ## Licence
 
-All texts included in this collection are in the public domain. The textual markup is provided with a Creative Commons Attribution International 4.0 licence (CC BY, https://creativecommons.org/licenses/by/4.0/).
+
 
 ## Citation suggestion
 
