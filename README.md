@@ -15,9 +15,9 @@ The books were originally published as e-texts at The Swedish Literature Bank. T
 
 ## Licence
 
-Most texts included in this collection are in the public domain. The textual markup is provided with a Creative Commons Attribution International 4.0 licence (CC BY, https://creativecommons.org/licenses/by/4.0/).
+Most novels included in this collection are in the public domain. The textual markup is provided with a Creative Commons Attribution International 4.0 licence (CC BY, https://creativecommons.org/licenses/by/4.0/).
 
-The exceptions are text by C.J.L. Almqvist, August Strindberg & Mikael Lybeck, which were produced in cooperation with The Swedish Society for Belles-Lettres, The Collected Works of August Strindberg and The Society of Swedish Literature in Finland. These works are subject to licence CC BY-NC-SA 4.0, which does not allow commercial use (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The exceptions are novels by C.J.L. Almqvist, August Strindberg & Mikael Lybeck, which were produced in cooperation with The Swedish Society for Belles-Lettres, The Collected Works of August Strindberg and The Society of Swedish Literature in Finland, respectively. These works are subject to licence CC BY-NC-SA 4.0, which does not allow commercial use (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 ## Citation suggestion
