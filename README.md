@@ -15,14 +15,11 @@ The books were earlier published as e-texts at The Swedish Literature Bank. The 
 
 ## Licence
 
-Most novels included in this collection are in the public domain. The textual markup is provided with a Creative Commons Attribution International 4.0 licence (CC BY, https://creativecommons.org/licenses/by/4.0/).
-
-The exceptions are novels by C.J.L. Almqvist, August Strindberg & Mikael Lybeck, which were produced in cooperation with The Swedish Society for Belles-Lettres, The Collected Works of August Strindberg and The Society of Swedish Literature in Finland, respectively. These works are subject to licence CC BY-NC-SA 4.0, which does not allow commercial use (https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
+Novels in the Swedish collection are subject to licence CC BY-NC-SA 4.0, which does not allow commercial use (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Citation suggestion
 
 *Swedish Novel Collection (ELTeC-swe)*, edited by Ljubica Miočević & Cai Alfredson. In: *European Literary Text Collection* (ELTeC). COST Action *Distant Reading for European Literature*. Version 0.1.0, November 13, 2020. URL: https://github.com/COST-ELTeC/ELTeC-swe. 
 
 ## Acknowledgements:
-Some of the works in this collection have originally been produced in collaboration with The Swedish Society for Belles-Lettres (Svenska Vitterhetssamfundet), The Collected Works of August Strindberg (August Strindbergs Samlade Verk, Nationalupplagan) & The Society of Swedish Literature in Finland (Svenska litteratursällskapet i Finland). 
+Some of the works in this collection have originally been produced in collaboration with other institutions, namely: novels by C.J.L. Almqvist – The Swedish Society for Belles-Lettres (Svenska Vitterhetssamfundet); novels by August Strindberg – The Collected Works of August Strindberg (August Strindbergs Samlade Verk, Nationalupplagan, at Stockholm University); Mikael Lybeck’s novel ”Den starkare” – The Society of Swedish Literature in Finland (Svenska litteratursällskapet i Finland). 
