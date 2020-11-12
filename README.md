@@ -15,7 +15,8 @@ The books were earlier published as e-texts at The Swedish Literature Bank. The 
 
 ## Licence
 
-Novels in the Swedish collection are subject to licence CC BY-NC-SA 4.0, which does not allow commercial use (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+All texts included in this collection are in the public domain. The textual markup is provided with a Creative Commons Attribution International 4.0 licence (CC BY, https://creativecommons.org/licenses/by/4.0/).
+
 
 ## Citation suggestion
 
