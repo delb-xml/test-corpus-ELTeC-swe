@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE3312560"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE3312560" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,17 +20,20 @@
     <measure unit="words">153299</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Gösta Berlings saga I–II.</title>
      <ref target="https://litteraturbanken.se/författare/LagerlöfS/titlar/GöstaBerlingsSagaFörraDelen1895/sida/3/etext?om-boken"/>
      <ref target="https://litteraturbanken.se/författare/LagerlöfS/titlar/GöstaBerlingsSagaSenareDelen1895/sida/3/etext?om-boken"/>     
-    </bibl>
-    
-    <bibl type="printSource">
+    </bibl><bibl type="printSource">
      <title>Gösta Berlings saga I–II.</title>
      <publisher>Albert Bonniers förlag, Stockholm <date>1895.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/3312560</idno>
@@ -35,15 +41,12 @@
      <ref target="https://litteraturbanken.se/författare/LagerlöfS/titlar/GöstaBerlingsSagaFörraDelen1895/sida/3/faksimil">PDF version</ref>
      <ref target="https://litteraturbanken.se/författare/LagerlöfS/titlar/GöstaBerlingsSagaSenareDelen1895/sida/3/faksimil">PDF version</ref>
      <note>Andra upplagan. – De exemplar som ligger till grund för Litteraturbankens utgåva tillhör Kungl. biblioteket (59C).</note>    
-    </bibl>    
-     
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Gösta Berlings saga I–II.</title>
      <publisher>Albert Bonniers förlag, Stockholm <date>1891.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/1492249</idno>
      <idno type="libris">http://libris.kb.se/bib/1492250</idno>     
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -61,6 +64,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -377,7 +381,7 @@
 <p>»Kavaljerer och bröder! Hafven I glömt, hvilka I ären? I ären de, som hålla glädjen vid makt i Värmland. I ären de, som sätta fart i stråkarna, hålla dansen i gång, låta sång och spel klinga genom landet. I förstån att hålla era hjärtan från guldet, era händer från arbetet. Om I ej funnens, då skulle dansen dö, sommaren dö, rosorna dö, kortspelet dö, sången dö, och i hela detta välsignade land skulle ingenting annat finnas än järn och brukspatroner. Glädjen skall lefva så länge som I. I sex år har jag nu firat julnatten i Ekeby smedja, och aldrig har någon förr vägrat att dricka för den trettonde.»</p>
 <p>»Men, Gösta,» ropa de då, »när vi blott äro tolf, hur ska vi då kunna dricka för den trettonde?»</p>
 <p>Djupt bekymmer afmålar sig på Göstas ansikte.</p>
-<p>»Äro vi blott tolf?» säger han. »Hvarför detta, skola vi dö ut från jorden? –&#x2002;–&#x2002;– Skola vi nästa år vara blott elfva, året därpå blott tio. Skall vårt namn bli sagans, vår skara förintas? Jag kallar honom, den trettonde, ty jag har uppstått att dricka hans skål. Ur hafvets djup, ur jordens innandömen, från himlen, från helvetet kallar jag honom, som skall fylla kavaljerernas skara.»</p>
+<p>»Äro vi blott tolf?» säger han. »Hvarför detta, skola vi dö ut från jorden? – – – Skola vi nästa år vara blott elfva, året därpå blott tio. Skall vårt namn bli sagans, vår skara förintas? Jag kallar honom, den trettonde, ty jag har uppstått att dricka hans skål. Ur hafvets djup, ur jordens innandömen, från himlen, från helvetet kallar jag honom, som skall fylla kavaljerernas skara.»</p>
 <p>Då rasslar det i skorstenen, då slås smältugnens lucka upp, då kommer den trettonde.</p>
 <p>Luden kommer han, med svans och hästhof, med horn och spetsigt hakskägg, och vid hans åsyn störta kavaljererna upp med ett skri.</p>
 <p>Men i hejdlöst jubel ropar Gösta Berling:</p>
@@ -487,7 +491,7 @@
 <p>Han står midt för majorskan och höter åt henne.</p><pb n="59"/>
 <p>»Jag tog kråkan och slog henne i väggen. Gjorde jag inte rätt, du?»</p>
 <p>»Ut med sig, kapten!»</p>
-<p>»Hut, käring! Bjuda Kristian Bergh kråkor! Gjorde jag rätt, så toge jag dig med din sju helvetes &#x2026;»</p>
+<p>»Hut, käring! Bjuda Kristian Bergh kråkor! Gjorde jag rätt, så toge jag dig med din sju helvetes …»</p>
 <p>»Tusan djäflar, Kristian Bergh, svär inte. Här svär ingen mer än jag.»</p>
 <p>»Tror du jag är rädd för dig, trollkäring? Tror du inte jag vet hur du fick dina sju bruk?»</p>
 <p>»Tig, kapten!»</p>
@@ -787,7 +791,7 @@
 <p>Hennes lif var ett lif af nöjen och hyllning. Luften omkring henne var kärlek, kärlek var hennes ljus och lykta, kärlek hennes dagliga bröd.</p>
 <p>Ofta hade hon själf älskat, ofta, ofta, men aldrig hade slik lusteld varat nog länge, att därvid kunnat smidas de bojor, som binda för lifvet.</p>
 <p>»Jag väntar honom, den starke stormaren,» brukade hon säga om kärleken. »Hittills har han ej klättrat öfver några vallar eller summit öfver några grafvar. Tam har han kommit, utan vildhet i blicken och dårskap i hjärtat. Jag väntar den väldige, som för mig utom mig själf. Så stark ville jag veta kärleken inom mig, att jag måste bäfva för honom; nu känner jag blott den kärlek, åt hvilken min klokhet ler.»</p>
-<p>Hennes närvaro gaf eld åt talet, lif åt vinet. Hennes glödande själ satte fart i stråkarna, och dansen sväfvade i ljufvare yrsel än förr öfver de tiljor, som hon berörde med sin smala fot. Hon strålade i tablåerna, hon gaf snille åt lustspelen, hennes sköna läppar &#x2026;</p>
+<p>Hennes närvaro gaf eld åt talet, lif åt vinet. Hennes glödande själ satte fart i stråkarna, och dansen sväfvade i ljufvare yrsel än förr öfver de tiljor, som hon berörde med sin smala fot. Hon strålade i tablåerna, hon gaf snille åt lustspelen, hennes sköna läppar …</p>
 <p>Ah tyst, det var ej hennes fel, aldrig var det hennes mening! Det var balkongen, det var månskenet, spetsslöjan, riddardräkten, sången, som hade skulden. De stackars unga människorna voro oskyldiga.</p>
 <p>Allt detta, som ledde till så mycken olycka, var dock gjordt i stor välmening. Patron Julius, som förstod sig på allt, hade anordnat en tablå, enkom för att Marianne skulle få stråla i full glans.</p><pb n="96"/>
 <p>På teatern, som var uppsatt i stora salongen på Ekeby, sutto de hundra gästerna och sågo på scenen Spaniens gula måne vandra fram öfver en mörk natthimmel. En Don Juan kom smygande längs Sevillas gata och stannade under en murgrönsklädd balkong. Han var förklädd till munk, dock kunde man se en broderad manschett sticka fram under ärmen och en blank värjspets under kåpans fåll.</p>
@@ -924,7 +928,7 @@
 <p>»Gå till rättargården, Marianne, och bed att du får vara där i natt. Far är full. Far tar ej reson. Han har hållit mig fången däruppe. Jag smög mig ut, när jag trodde han sof. Han slår ihjäl dig, om du kommer in.»</p>
 <p>»Mor mor, skall jag gå till främlingar, då jag har ett hem? Är mor lika hård som far? Hur kan mor låta det ske, att jag stänges ute? Jag lägger mig i drifvan här utanför, om mor ej släpper in mig.»</p>
 <p>Då lade Mariannes mor sin hand på låset för att öppna, men i detsamma hördes tunga steg i vindstrappan, och en sträf röst kallade henne.</p>
-<p>Marianne lyssnade: hennes mor skyndade bort, den sträfva rösten bannade henne och så &#x2026;</p>
+<p>Marianne lyssnade: hennes mor skyndade bort, den sträfva rösten bannade henne och så …</p>
 <p>Marianne hörde något förfärligt – hon kunde höra hvarje ljud ur det tysta huset.</p>
 <p>Hon hörde skrällen af ett slag, af ett käpprapp eller en örfil, så förnam hon ett svagt buller och så återigen ett slag.</p>
 <p>Han slog hennes mor, den förskräcklige, den kämpastore Melchior Sinclaire slog sin hustru.</p><pb n="110"/>
@@ -1272,7 +1276,7 @@
 <p>»Tant skulle ha låtit en af pigorna öppna med salsnyckeln,» sade Gösta.</p>
 <p>»Tror du jag ville lära dem det knepet? Då skulle jag aldrig få ha någonting i fred i skafferiet mer. Och för resten tog jag mig för att städa på de öfversta hyllorna. Det behöfdes minsann. Jag begriper ej, att jag kunnat låta dem bli så fulla af skräp.»</p>
 <p>»Tant har så mycket att ställa med,» sade Gösta urskuldande.</p>
-<p>»Ja, det må du tro. Om jag inte är med öfverallt, så kommer hvarken väfstol eller spinnrock i rätt takt. Och om &#x2026;»</p>
+<p>»Ja, det må du tro. Om jag inte är med öfverallt, så kommer hvarken väfstol eller spinnrock i rätt takt. Och om …»</p>
 <p>Här stannade hon och torkade en tår ur ögonvrån.</p><pb n="166"/>
 <p>»Gud hjälpe mig, så jag talar,» sade hon, »jag lär väl ej ha något att se efter mera, jag. Han säljer ju bort allt hvad vi hafva.»</p>
 <p>»Ja, det är ett elände,» sade Gösta.</p>
@@ -1532,7 +1536,7 @@
 <p>Men unga grefvinnan är glad och låter sin munterhet lysa öfver allt och alla. Man förlåter henne så gärna den långa morgonsömnen och det färska brödet, ty hon slösar med välgärningar mot de fattiga och är vänlig mot hvar man.</p>
 <p>Unga grefvinnans far är en svensk adelsman, som bott i Italien hela sitt lif, kvarhållen där af det vackra landet och af en af det vackra landets sköna döttrar. Då grefve Henrik Dohna reste i Italien, hade han blifvit mottagen i denne ädlings hem, gjort bekantskap med hans döttrar, gift sig med en af dem och fört henne med sig till Sverige.</p>
 <p>Hon, som alltid kunnat svenska och blifvit uppfostrad till att älska allt svenskt, trifves väl uppe i<pb n="193"/> björnlandet. Hon svänger om så gladt i den långdans af nöjen, som hvirflar rundt om Löfvens långa sjö, att man kunde tro, att hon alltid lefvat däruppe. Litet nog förstår hon emellertid hvad det vill säga att vara grefvinna. Det finnes ingen ståt, ingen stelhet, ingen nedlåtande värdighet hos denna unga, glada varelse.</p>
-<p>De gamle herrarna voro de, som tyckte mest om unga grefvinnan. Det var märkvärdigt, hvilken framgång hon hade hos gamla herrar. Då de sett henne på en bal, så kunde man vara viss om, att de allesammans, både lagmannen i Munkerud och prosten i Bro och Melchior Sinclaire och kaptenen på Berga, skulle förklara för sina hustrur i djupaste förtroende, att om de råkat unga grefvinnan för fyrtio eller trettio år sedan &#x2026;</p>
+<p>De gamle herrarna voro de, som tyckte mest om unga grefvinnan. Det var märkvärdigt, hvilken framgång hon hade hos gamla herrar. Då de sett henne på en bal, så kunde man vara viss om, att de allesammans, både lagmannen i Munkerud och prosten i Bro och Melchior Sinclaire och kaptenen på Berga, skulle förklara för sina hustrur i djupaste förtroende, att om de råkat unga grefvinnan för fyrtio eller trettio år sedan …</p>
 <p>»Ja, då var hon visst inte född,» säga de gamla fruarna.</p>
 <p>Och nästa gång de råkas, bry de unga grefvinnan, för att hon tar de gamle herrarnas hjärtan ifrån dem.</p>
 <p>De gamla fruarna se henne med en viss ängslan. De komma så väl ihåg grefvinnan Märta. Lika glad och god och älskad hade hon varit, då hon första gången kom till Berga. Och af henne hade det endast blifvit en fåfäng och nöjeslysten kokett, som numera icke förmådde tänka på någonting annat än sina förströelser. »Om hon bara hade en man, som kunde hålla henne till arbete!» säga de gamla fruarna. »Om hon bara kunde sätta upp väfvar!» Ty att sätta upp väfvar, det tröstar för all sorg, det<pb n="194"/> slukar alla intressen, det har varit många kvinnors räddning.</p>
@@ -1609,7 +1613,7 @@
 <p>»Min kära grefvinna,» säger hon. »Hvad kan förmå er att lämna dansen för att uppsöka en ensam gammal gumma som jag? Ni måtte vara mycket god.»</p>
 <p>Grefvinnan Elisabet kan ej svara. Hennes röst är kväfd af rörelse. Fru Scharling svarar i hennes ställe, att hon ej kunnat dansa, därför att hon tänkt på majorskan.</p>
 <p>»Kära fru Scharling,» svarar majorskan, »är det nu så långt kommet med mig, att jag stör de unga i deras glädje? Ni skall ej gråta öfver mig, min kära unga grefvinna,» fortfor hon. »Jag är en elak gammal kvinna, som förtjänar mitt öde. Ni håller det ej för rätt att slå sin mor?»</p>
-<p>»Nej, men &#x2026;»</p>
+<p>»Nej, men …»</p>
 <p>Majorskan afbryter henne och stryker det krusiga, ljusa håret upp ur hennes panna.</p>
 <p>»Barn, barn,» säger hon, »hur kunde ni gå och gifta er med den dumme Henrik Dohna?»</p>
 <p>»Men jag älskar honom.»</p>
@@ -1628,7 +1632,7 @@
 <p>»Då får hon också vänta, grefvinna.»</p>
 <p>»Å, hjälp henne, herr Berling!»</p>
 <p>Gösta blickar mörkt framför sig. »Nej,» säger han, »hvarför skulle jag hjälpa henne? Hvad är jag henne för tack skyldig? Allt hvad hon gjort för mig har varit till mitt fördärf.»</p>
-<p>»Men, herr Berling &#x2026;»</p>
+<p>»Men, herr Berling …»</p>
 <p>»Om hon ej funnits,» säger han häftigt, »sofve jag nu däruppe under de eviga skogarna. Skall jag vara skyldig att våga lifvet för henne, därför att hon gjort mig till kavaljer på Ekeby? Tror grefvinnan, att det följer mycken berömmelse med det ämbetet?»</p>
 <p>Den unga grefvinnan vänder sig ifrån honom utan att svara. Hon är ond.</p>
 <p>Hon går till sin plats, tänkande bittra tankar om kavaljererna. Hit äro de komna med valthorn och fioler och ämna låta stråkarna gnida öfver strängarna, till dess taglet nötts ut, utan att tänka på att de lustiga tonerna klinga öfver till den fångnas usla rum. Hit komma de för att dansa, till dess skosulorna blifva till stoft, och tänka ej på, att deras gamla välgörarinna kan se deras skuggor svänga förbi innanför de immade rutorna. Ack, hvad världen blef grå och ful! Ack, hvilken skugga nöden och hårdheten kastade öfver unga grefvinnans själ!</p><pb n="208"/>
@@ -1721,9 +1725,9 @@
 <p>»Jag har ord om mig att vara en rättvis man,» utbrast han. »Jag kan döma öfver mina tjänare. Hvarför skulle jag ej kunna döma öfver min hustru? Kavaljererna ha ej rätt att döma henne. Det straff de tillämpat på henne förintar jag. Det har aldrig funnits till, förstå ni, mina herrar. Det har aldrig funnits till.»</p>
 <p>Grefven skrek ut orden i högsta falsett. Beerencreutz sände en snabb blick ut öfver församlingen. Det var ej en af de närvarande – Sintram och Daniel Bendix och Dalberg och allt hvad det kunde vara för ena, som följt med in – som ej stod och småmyste åt hur han lurade den dumme Henrik Dohna.</p>
 <p>Unga grefvinnan förstod ej genast. Hvad var det, som skulle räknas för intet? Hennes ångest, kavaljerernas hårda grepp om hennes späda kropp, den vilda sången, de vilda orden, de vilda kyssarna, skulle detta ej finnas till? Fanns det denna kväll intet, öfver hvilket den gråa skymningsgudinnan ej rådde?</p>
-<p>»Men Henrik &#x2026;»</p>
+<p>»Men Henrik …»</p>
 <p>»Tyst!» sade han. Och han rätade upp sig för att hålla strafftalet till henne. »Ve dig, att du, som är kvinna, har velat sätta dig till domare öfver män,» säger han. »Ve dig, att du, som är min hustru, vågar förolämpa någon, hvars hand jag gärna trycker. Hvad har du att göra med att kavaljererna satt majorskan i häkte? Hade de ej rätt? Aldrig kan du veta hur en man måste vredgas i djupet af sin själ, då han hör talas om kvinnors otro. Amnar<pb n="219"/> du själf vandra den onda vägen, efter du tar en sådan kvinnas försvar?»</p>
-<p>»Men, Henrik &#x2026;»</p>
+<p>»Men, Henrik …»</p>
 <p>Hon klagade som ett barn och sträckte ut armarna som för att afvärja de onda orden. Hon hade kanske aldrig förr hört så hårda ord riktade till sig. Hon var så hjälplös bland dessa hårda män, och nu vände hennes ende försvarare sig mot henne. Aldrig mer skulle hennes hjärta hafva kraft att upplysa världen.</p>
 <p>»Men, Henrik, det är ju du, som skulle skydda mig.»</p>
 <p>Gösta Berling var uppmärksam nu, då det var för sent. Han visste sannerligen ej hvad han skulle göra. Han ville henne så väl. Men han vågade ej kasta sig mellan man och hustru.</p>
@@ -1927,7 +1931,7 @@
 <p>»Nej.»</p>
 <p>»Strax sedan han blifvit skild från ämbetet, irrade han kring landet som en tiggare. Han drack som en galning. Han kunde stjäla för att få brännvin.»</p>
 <p>»Hvad heter han?»</p>
-<p>»Han finnes ej mer på Ekeby. –&#x2002;–&#x2002;– Majorskan på Ekeby tog hand om honom, gaf honom kläder och öfvertalade din svärmor, grefvinnan Dohna, att göra honom till informator för din man, den unge grefve Henrik.»</p>
+<p>»Han finnes ej mer på Ekeby. – – – Majorskan på Ekeby tog hand om honom, gaf honom kläder och öfvertalade din svärmor, grefvinnan Dohna, att göra honom till informator för din man, den unge grefve Henrik.»</p>
 <p>»En afsatt präst!»</p>
 <p>»Å, han var en ung, kraftig man, med goda kunskaper. Det var ingen fara med honom, om han bara icke drack. Grefvinnan Märta var ej nogräknad. Det roade henne att retas med prosten och komministern. Dock påbjöd hon, att ingen skulle nämna om hans föregående lif för hennes barn. Då skulle hennes son hafva förlorat respekten<pb n="250"/> för honom, och hennes dotter skulle ej kunnat tåla honom, ty hon var ett helgon.</p>
 <p>Så kom han hit till Borg. Han stannade strax inom dörren, satte sig ytterst på stolkanten, teg vid bordet och flydde ut i parken, då här kom främmande.</p>
@@ -2100,7 +2104,7 @@
 <p>»Anna, Anna,» frågar Gösta, »hvad menar hon?»</p>
 <p>»Det är bäst, att du går, Gösta.»</p>
 <p>»Hvarför skall jag gå? Hvad betyder allt detta?»</p>
-<p>»Anna,» säger grefvinnan Elisabet, »säg honom, säg honom &#x2026;!»</p>
+<p>»Anna,» säger grefvinnan Elisabet, »säg honom, säg honom …!»</p>
 <p>»Nej, grefvinna, säg honom själf!»</p>
 <p>Grefvinnan biter ihop tänderna och betvingar sin rörelse.</p>
 <p>»Herr Berling,» säger hon och går fram till honom, »ni har en märkvärdig förmåga att komma folk att glömma, hvem ni är. Jag har ej vetat det förrän i dag. Jag har nyss hört berättelsen om Ebba Dohnas död, och att det var underrättelsen om att hon älskade en ovärdig, som dödade henne. Ert poem har låtit mig förstå, att denne man är ni. Jag kan ej förstå hur någon med de föregåenden, som ni genomlefvat, kan få visa sig i en hederlig kvinnas sällskap. Jag kan ej förstå det, herr Berling. Är jag nu tydlig nog?»</p>
@@ -2111,7 +2115,7 @@
 <p>»Men, Anna, Anna!»</p>
 <p>»Om jag berättade dig det där, tror du, att jag gjorde det med gladt sinne? Har jag inte suttit här och bit för bit slitit hjärtat ur mitt bröst?»</p>
 <p>»Hvarför har du då gjort det?»</p>
-<p>»Hvarför? Därför, du, att jag inte ville – inte ville, att han skulle bli en gift kvinnas älskare &#x2026;»</p> 
+<p>»Hvarför? Därför, du, att jag inte ville – inte ville, att han skulle bli en gift kvinnas älskare …»</p> 
 <gap unit="graphic"/>
 <pb n="267"/><gap unit="graphic"/>  
 </div>
@@ -2300,7 +2304,7 @@
 <p>Om hon nu vore honom nära och helt sakta lade handen på hans arm eller blott gåfve honom en vänlig blick, skulle han ej då vända om från de förskjutnas onda väg? Om ett ord från henne drifvit honom till en så förtviflad gärning, skulle ej då ett ord från henne kunna hejda honom?</p>
 <p>Hon ryser för den synd han skall begå mot detta stackars vanlottade barn. Hon ryser för hans synd mot den arma varelsen, som nu skall lockas att älska honom, kanske blott för en dags skämt. Kanske ock – och då ryser hon än mer öfver den synd han begår mot sig själf – för att som en tryckande börda kedjas fast vid hans lif och för alltid förtaga hans ande kraften att nå höjden.</p>
 <p>Och ytterst var skulden hennes. Hon hade med ett fördömelsens ord utkastat honom på den onda vägen. Hon, som var kommen för att välsigna, för att mildra, hvarför hade hon vridit ännu en tagg in i syndarens törnekrona?</p>
-<p>Jo, nu vet hon hvad hon vill göra. Hon skall låta spänna de svarta hästarna för släden, ila hän öfver Löfven, storma in på Ekeby gård, ställa sig midt emot Gösta Berling och säga honom, att hon ej föraktar honom, att hon ej visste hvad hon sade, då hon förjagade honom från sitt hem &#x2026; Nej, hon kunde dock ej göra något dylikt, hon skulle blygas<pb n="17"/> och ej våga säga ett ord. Hon, som var gift, måste akta sig. Det skulle uppkomma så mycket förtal, om hon gjorde något sådant. Men gjorde hon det ej, hur skulle det då gå med honom?</p>
+<p>Jo, nu vet hon hvad hon vill göra. Hon skall låta spänna de svarta hästarna för släden, ila hän öfver Löfven, storma in på Ekeby gård, ställa sig midt emot Gösta Berling och säga honom, att hon ej föraktar honom, att hon ej visste hvad hon sade, då hon förjagade honom från sitt hem … Nej, hon kunde dock ej göra något dylikt, hon skulle blygas<pb n="17"/> och ej våga säga ett ord. Hon, som var gift, måste akta sig. Det skulle uppkomma så mycket förtal, om hon gjorde något sådant. Men gjorde hon det ej, hur skulle det då gå med honom?</p>
 <p>Hon måste resa.</p>
 <p>Så tänker hon på att en sådan resa är omöjlig. Detta år kan ingen häst mer färdas öfver Löfvens is. Isen smälter, den har allaredan lossnat från land. Den ligger lös, sprucken, hemsk att se. Vatten porlar upp och ner genom den, på somliga ställen har det samlats i svarta gölar, på andra ställen är isen bländande hvit. För det mesta är den dock grå, smutsig af smältande snö, och vägarna gå som långa svarta ränder öfver dess yta.</p>
 <p>Hur kan hon tänka på att resa? Den gamla grefvinnan Märta, hennes svärmor, skulle aldrig tillåta henne något sådant. Hela kvällen måste hon sitta bredvid henne i salongen och lyssna till dessa gamla hofhistorier, som äro den gamlas lust.</p>
@@ -2322,9 +2326,9 @@
 <p>Så kommer vårfloden, och dammen börjar svikta.</p>
 <p>Fallet vid Ekeby är en väldig gråstenstrappa, utför hvilken Björksjöälfvens vågor komma rusande. Yra bli de af farten, tumla öfver ända och törna samman. De fara upp i vredesmod och spruta skum öfver hvarandra, ramla åter omkull öfver en sten, öfver en timmerstock och så upp igen för att åter falla, åter och åter under skummande, hväsande, rytande.</p><pb n="20"/>
 <p>Och nu gå dessa vilda, upphetsade vågor, rusiga af vårluft, yra af den nyvunna friheten till storms mot den gamla stenmuren. De komma, hväsande och slitande, storma högt upp på den och draga sig åter tillbaka, som om de stött sina hvitlockiga hufvuden. Det är en stormning så god som någon, de taga stora isstycken till skärmtak, de taga timmerstockar till murbräckor, de bända, bryta, brusa mot denna stackars mur, tills det med ens förefaller, som om någon tillropat dem ett: gif akt! Då rusa de baklänges, och efter dem kommer en stor sten, som lossnar från dammen och dånande sjunker ned i strömmen.</p>
-<p>Det ser ut, som om detta gjort dem häpna, de stå stilla, de jubla, de rådslå &#x2026; och så i färd på nytt! Där äro de åter med isstycken och timmerstockar, odygdiga, obarmhärtiga, vilda, galna af förstörelselust.</p>
+<p>Det ser ut, som om detta gjort dem häpna, de stå stilla, de jubla, de rådslå … och så i färd på nytt! Där äro de åter med isstycken och timmerstockar, odygdiga, obarmhärtiga, vilda, galna af förstörelselust.</p>
 <p>Om blott dammen vore borta – säga vågorna – om blott dammen vore borta, då skulle det bli smedjans tur och kvarnens tur.</p>
-<p>Nu är frihetens dag &#x2026; bort med människor och människors verk! De ha sotat oss med kol, de ha dammat oss med mjöl, de ha lagt arbetsok på oss som på oxar, kört oss i ring, stängt oss inne, hämmat oss med dammluckor, tvungit oss att draga de tunga hjulen, att bära de otympliga timmerstockarna. Men nu skola vi vinna friheten.</p>
+<p>Nu är frihetens dag … bort med människor och människors verk! De ha sotat oss med kol, de ha dammat oss med mjöl, de ha lagt arbetsok på oss som på oxar, kört oss i ring, stängt oss inne, hämmat oss med dammluckor, tvungit oss att draga de tunga hjulen, att bära de otympliga timmerstockarna. Men nu skola vi vinna friheten.</p>
 <p>Frihetens dag är kommen! Hören det, vågor uppe i Björksjön, hören det, bröder och systrar i myr och träsk, i bergbäck och skogsälf! Kommen, kommen! Störten er ned i Björksjöälfven, kommen<pb n="21"/> med friska krafter, dånande, hväsande, färdiga att bryta sekelgammalt förtryck, kommen! Tyranniets bålverk skall falla. Död åt Ekeby!</p>
 <p>Och de komma – våg efter våg störtar utför fallet för att köra sitt hufvud mot dammuren, för att lämna sin hjälp till det stora verket. Rusiga af vårens nyvunna frihet, manstarka, eniga komma de och lossa sten på sten, tufva på tufva från den sviktande vågbrytaren.</p>
 <p>Men hvarför låta då människorna de vilda vågorna rasa, utan att göra motstånd? Är Ekeby utdödt?</p>
@@ -2334,7 +2338,7 @@
 <p>Och under tiden går bud på bud upp till herrgården efter kavaljererna.</p>
 <p>Äro de i lynne att tänka på smedja och kvarn? De hundra gästerna äro samlade i Ekeby vida salar. Kvastflickan väntar ute i köket. Öfverraskningens spännande ögonblick är kommet. Champagnen pärlar i glasen, Julius reser sig för att hålla festtalet. Alla de gamla äfventyrarne på Ekeby glädja sig åt den förstenande förvåning, som skall sänka sig ned öfver församlingen.</p>
 <p>Ute på Löfvens is vandrar den unga grefvinnan Dohna en hemsk, lifsfarlig väg för att få hviska ett varningens ord till Gösta Berling. Nere vid vattenfallet löpa vågorna till storms mot all Ekeby ära och makt, men i de vida salarna råda endast glädje och ifrig förväntan, vaxljusen stråla, och vinet strömmar; därinne tänker ingen på det, som rör sig ute i den mörka, stormiga vårnatten.</p>
-<p>Just nu är ögonblicket kommet. Gösta stiger upp och går ut för att hämta in fästmön. Han måste gå öfver förstugan, och dess stora dörrar stå vidöppna, han stannar, han ser ut i den kolsvarta natten &#x2026; och han hör, han hör.</p>
+<p>Just nu är ögonblicket kommet. Gösta stiger upp och går ut för att hämta in fästmön. Han måste gå öfver förstugan, och dess stora dörrar stå vidöppna, han stannar, han ser ut i den kolsvarta natten … och han hör, han hör.</p>
 <p>Han hör klockan klämta, forsen brusa. Han hör dånet af bristande is, larmet af törnande stockar, de upproriska vågornas brusande, hånande, segerjublande frihetssång.</p>
 <p>Då störtar han ut i natten, glömmande allt. Därinne må de stå med lyfta glas och vänta ända till världens sista dag; nu bryr han sig ej mer om<pb n="23"/> dem. Fästmön må vänta, patron Julius’ tal får dö på hans läppar. Ringarna skola ej växlas denna natt, den förstenande förvåningen skall ej sänka sig ned öfver den lysande församlingen.</p>
 <p>Nu ve er, upproriska vågor, nu gäller det i sanning att tillkämpa er friheten, nu är Gösta Berling kommen ner till fallet, nu har folket fått en anförare, nu tändes mod i förfärade hjärtan, nu stiga försvarare upp på murarna, nu börjar en väldig strid.</p>
@@ -2364,7 +2368,7 @@
 <p>»Låt mig vara, herr Berling, låt mig gå hem!»</p>
 <p>Han lyder genast och vänder sig bort ifrån henne.</p>
 <p>Men eftersom hon ej blott är en förnäm dam, utan egentligen en liten snäll kvinna, som ej kan uthärda tanken, att hon bragt någon till förtviflan, eftersom hon är en liten blomsterplockerska, som alltid har rosor nog i sin korg för att kunna pryda den ödsligaste väg, ångrar hon sig genast, går efter honom och fattar hans hand.</p>
-<p>»Jag kom,» säger hon och stammar, »jag kom för att &#x2026; O, herr Berling, ni har ju inte gjort det, säg att ni inte gjort det &#x2026; Jag blef så rädd, då ni kom springande efter mig, men det var just er, jag ville träffa. Jag ville bedja er, att ni ej skulle tänka på det där jag sade sist och att ni ville komma hem som vanligt.»</p>
+<p>»Jag kom,» säger hon och stammar, »jag kom för att … O, herr Berling, ni har ju inte gjort det, säg att ni inte gjort det … Jag blef så rädd, då ni kom springande efter mig, men det var just er, jag ville träffa. Jag ville bedja er, att ni ej skulle tänka på det där jag sade sist och att ni ville komma hem som vanligt.»</p>
 <p>»Hur har grefvinnan kommit hit?»</p>
 <p>Hon skrattar nervöst. »Jag visste nog, att jag skulle komma för sent, men jag ville ej tala om för någon, att jag gick; och för resten, förstår ni, kan man ej åka öfver sjön mera.»</p>
 <p>»Har grefvinnan gått öfver sjön?»</p><pb n="28"/>
@@ -2558,7 +2562,7 @@
 <p>Hon steg genast upp. Han lyfte henne ned i båten och rodde henne till den östra stranden. Han lade till vid en smal gångstig och hjälpte henne ur båten.</p>
 <p>»Hvad skall det nu bli af er, grefvinna?» sade han.</p>
 <p>Hon lyfte allvarligt fingret och pekade mot himlen.</p>
-<p>»Då ni kommer i nöd, grefvinna &#x2026;»</p>
+<p>»Då ni kommer i nöd, grefvinna …»</p>
 <p>Han kunde ej tala, rösten svek honom, men hon förstod honom och svarade:</p>
 <p>»Jag skall sända bud på er, då jag behöfver er.»</p>
 <p>»Jag skulle velat skydda er mot allt ondt,» sade han.</p>
@@ -2801,7 +2805,7 @@
 <l>»Ett och tu,</l>
 <l>Sex och sju</l>
 <l>Värmlands jägare komma nu.»</l> <pb n="104"/>
-<p>Så klingade det honom till mötes, men några jägare var det ej, utan de glada fröknarna från Berga och några af lagmannens i Munkerud vackra döttrar var det, som kommo vandrande längs vägen. De hade satt sina små matsäcksknyten på långa stänger, hvilka hvilade på deras axlar som gevär, och de tågade modigt fram i sommarhettan, sjungande i god takt: »Ett och tu, sex och sju –&#x2002;–&#x2002;–»</p>
+<p>Så klingade det honom till mötes, men några jägare var det ej, utan de glada fröknarna från Berga och några af lagmannens i Munkerud vackra döttrar var det, som kommo vandrande längs vägen. De hade satt sina små matsäcksknyten på långa stänger, hvilka hvilade på deras axlar som gevär, och de tågade modigt fram i sommarhettan, sjungande i god takt: »Ett och tu, sex och sju – – –»</p>
 <p>»Hvarthän, patron Julius?» ropade de, då de mötte honom, utan att akta på de moln af sorg, som betäckte hans panna.</p>
 <p>»Jag drager bort från syndens och fåfänglighetens hem,» svarade patron Julius. »Jag vill ej längre dväljas bland lättingar och ogärningsmän. Jag far hem till min mor.»</p>
 <p>»Å,» ropade de, »det är ej sant, patron Julius vill ej lämna Ekeby!»</p>
@@ -3252,7 +3256,7 @@
 <p>Han bad, som en förtviflad människa ber, med få ord, utan egentligt sammanhang.</p>
 <p>»Om det är min synd, som framkallat din vrede, straffa blott mig! Om det finns barmhärtighet hos dig, du nådens Gud, låt det regna! Tag från mig skammen! Låt det regna på min bön! Låt det falla regn på den fattiges åker! Gif ditt folk bröd!»</p>
 <p>Dagen var het, olidligt kvalm rådde. Församlingen hade suttit som i dvala; men vid dessa brutna ljud, denna hesa förtviflan vaknade en hvar.</p>
-<p>»Om det ännu finns en väg till upprättelse för mig, gif regn &#x2026;»</p><pb n="182"/>
+<p>»Om det ännu finns en väg till upprättelse för mig, gif regn …»</p><pb n="182"/>
 <p>Han tystnade. Dörrarna stodo öppna. Nu kom en häftig vindstöt rusande. Den for fram efter marken, hvirflade upp mot kyrkan och sände dit in en damsky, full af stickor och strå. Prästen kunde ej fortfara; han vacklade ned från predikstolen.</p>
 <p>Människorna ryste. Skulle detta vara ett svar?</p>
 <p>Men vindstöten var blott åskvädrets förelöpare. Det kom dragande fram med en hastighet utan like. Då psalmen var sjungen och prästen stod vid altaret, ljungade redan blixtarna, och åskan brakade lös, förtagande ljudet af hans ord. Då klockaren spelade upp utgångspsalmen, smattrade redan de första regndropparna mot de gröna fönsterrutorna, och människorna stormade alla ut för att se på regnet. Men de nöjde sig ej med att se: somliga gräto, andra skrattade, under det de läto det strida åskregnet strömma ned öfver sig. Ack, hvad deras nöd varit stor! Hvad de varit olyckliga! Men Gud är god! Gud låter regn falla. Hvilken glädje, hvilken glädje!</p>
@@ -3307,8 +3311,8 @@
 <p>»Ja, grefvinna, men detta måste ju kunna ändras. Nu då det finnes ett barn, kan man helt visst tvinga grefven att legalisera äktenskapet. Var viss på att jag skall hjälpa grefvinnan!»</p>
 <p>Grefvinnan smålog. »Tror du, att jag vill tvinga mig på grefve Dohna?»</p>
 <p>Blodet rusade upp i Göstas hufvud. Hvad önskade hon då? Hvad begärde hon af honom?</p>
-<p>»Kom hit, Gösta,» sade hon och räckte åter ut handen. »Du får inte bli ond på mig för hvad jag nu säger, men jag tänkte, att du, som är, som är &#x2026;»</p>
-<p>»En afsatt präst, en dryckeskämpe, en kavaljer, Ebba Dohnas mördare, jag kan hela meritlistan &#x2026;»</p>
+<p>»Kom hit, Gösta,» sade hon och räckte åter ut handen. »Du får inte bli ond på mig för hvad jag nu säger, men jag tänkte, att du, som är, som är …»</p>
+<p>»En afsatt präst, en dryckeskämpe, en kavaljer, Ebba Dohnas mördare, jag kan hela meritlistan …»</p>
 <p>»Är du redan ond, Gösta?»</p>
 <p>»Jag ville helst, att grefvinnan ej sade något mer.»</p>
 <p>Men barnets mor fortsatte:</p>
@@ -3581,7 +3585,7 @@
 <p>Månne hon vrider sig i plågor, månne hon flyr undan lågorna från rum till rum? Ah, hvad det gröna sidenet skall låga och hur flammorna skola leka i det strida håret! Friskt mod, flammor, friskt mod, fången henne, sätten eld på henne! Häxor brinna! Frukten ej för hennes trollord, lågor! Låten henne brinna! Den finnes, som för hennes skull måst brinna genom hela sitt lif.</p><pb n="232"/>
 <p>Klockor klämtade, vagnar rasslade, sprutor drogos fram, vatten langades upp från sjön, folk stormade till från alla byar. Det var skrik och jämmer och befallningar; det var tak, som störtade in; det var det förfärliga knastret och dånet af eldsvådan. Men intet störde Kevenhüller. Han satt på huggkubben och gned händerna.</p>
 <p>Så hörde han ett brak, som om himlen störtat samman, och han for upp i jubel. »Nu är det gjordt,» utbrast han. »Nu kan hon ej undkomma, nu är hon krossad under bjälkarna eller bränd af lågorna. Nu är det gjordt.»</p>
-<p>Och han tänkte på Ekeby ära och makt, som måst uppoffras för att skaffa henne ur världen. De härliga salarna, där så mycken fröjd bott, rummen, som genljudit af minnenas glädje, borden, som dignat under läckra rätter, de dyrbara gamla möblerna, silfver och porslin, som ej mer kunde tillrättaskaffas &#x2026;</p>
+<p>Och han tänkte på Ekeby ära och makt, som måst uppoffras för att skaffa henne ur världen. De härliga salarna, där så mycken fröjd bott, rummen, som genljudit af minnenas glädje, borden, som dignat under läckra rätter, de dyrbara gamla möblerna, silfver och porslin, som ej mer kunde tillrättaskaffas …</p>
 <p>Och så for han upp med ett anskri. Hans eldhjul, hans sol, modellen, på hvilken allt berodde, hade han ej ställt in den under trappan för att åstadkomma eldsvådan?</p>
 <p>Kevenhüller såg ned på sig själf, förstenad af fasa.</p>
 <p>»Är jag tokig?» sade han. »Hur kunde jag göra något sådant?»</p>

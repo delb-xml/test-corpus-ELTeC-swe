@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1619135"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1619135" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">33011</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Norrtullsligan</title>
      <ref target="https://litteraturbanken.se/författare/WägnerE/titlar/Norrtullsligan/sida/III/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Norrtullsligan. Elisabeths krönika</title>
      <publisher>Aktiebolaget Ljus. Stockholm <date>1908.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1619135</idno>
 	 <!-- <ref target="http://runeberg.org/ligan26/0003.html">PDF version</ref>  later edition-->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -839,7 +845,7 @@
 <p>— Vi talar förstås vid <hi>vår</hi> doktor, så kostar det ingenting, svarade Eva, förvånad öfver att jag inte kunde behärska en så enkel situation. Vet du inte, hvem vår doktor är?</p>
 <p>— Nej.</p>
 <p>— Så lustigt! Han är den snällaste doktor i Stockholm. Vi är en hel hop, som alltid går till honom, när vi har<pb n="142"/> något ondt, och han säger, att af fattiga kontorsflickor tar han ingenting. Jag skall ringa, men tror du du kan stanna hemma och ta emot honom?</p>
-<p>Det gjorde jag, och han kom vid &#x00BD; 9-tiden. Jag öppnade tamburdörren för honom med en andakt, som jag hoppas märktes i mitt väsen. Det förvånade mig nästan, att han såg ut som en vanlig människa. En man, som af ren godhet gaf oss något utan att i gengäld fordra vårt arbete, eller några andra rättigheter öfver vår person! Som af sig själf tänkte på, att vi hade det sträfsamt och knaggligt och gjorde sig någon möda för oss! Han måste vara beskaffad på ett alldeles särskildt sätt. Men jag känner mig glad, att han finns, och när jag är bitter, skall jag tänka på honom.</p>
+<p>Det gjorde jag, och han kom vid ½ 9-tiden. Jag öppnade tamburdörren för honom med en andakt, som jag hoppas märktes i mitt väsen. Det förvånade mig nästan, att han såg ut som en vanlig människa. En man, som af ren godhet gaf oss något utan att i gengäld fordra vårt arbete, eller några andra rättigheter öfver vår person! Som af sig själf tänkte på, att vi hade det sträfsamt och knaggligt och gjorde sig någon möda för oss! Han måste vara beskaffad på ett alldeles särskildt sätt. Men jag känner mig glad, att han finns, och när jag är bitter, skall jag tänka på honom.</p>
 <p>Det blef en lång undersökning. Jag måste svara på doktorns frågor, Emmy orkade inte. Resultatet blef, att hon borde till Sabbatsberg ofördröjligen och opereras. Ryggvärken hade varit symptom för ett farligt inre lidande.</p><pb n="143"/>
 <p>— Ja, det är ett ledsamt fall, men inte ovanligt, sade doktorn. Det är det onaturliga stillasittandet, som kvinnans kropp särskildt inte är skapad för, och så öfveransträngning och klen kost. Hon skulle bara sökt hjälp förr. Jag förstår inte, att hon dröjt så länge, ty alldeles säkert har hon haft det svårt.</p>
 <p>— <hi>Jag</hi> förstår det, tänkte jag.</p>

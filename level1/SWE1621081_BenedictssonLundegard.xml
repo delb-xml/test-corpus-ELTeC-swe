@@ -1,5 +1,9 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1621081"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1621081" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +21,25 @@
     <measure unit="words">74181</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Modern</title>
      <ref target="https://litteraturbanken.se/författare/BenedictssonV/titlar/Modern/sida/1/etext"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Modern. En berättelse.</title>
      <publisher>Z. Hæggströms förlags-expedition, Stockholm <date>1888.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/1621081</idno>
 <!--   <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-     </bibl>
-   </sourceDesc>
+     </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +57,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>

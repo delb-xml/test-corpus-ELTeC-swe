@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE914400"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE914400" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">110341</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Åsa-Hanna</title>
      <ref target="https://litteraturbanken.se/författare/WägnerE/titlar/ÅsaHanna/sida/3/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Åsa-Hanna. Roman.</title>
      <publisher>Stockholm. Albert Bonniers Förlag <date>1918.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/914400</idno>
 	 <!--  <ref target="http://runeberg.org/skaftet26/0001.html">PDF version</ref>   -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -1528,7 +1534,7 @@
 <p>Franse upprepade med något skyggt i rösten: — Men ska prosten själv besvära sig?</p>
 <p>Han svarade ingen av dem, lät blott kläda på sig ämbetsdräkt och intog sin plats bakom dopbordet under tavlan med Kristus, som stod där lika ensam.</p>
 <p>Alla de, som stodo i en halvkrets framför honom, visste, att detta var hans sista prästerliga handling, och ingen undgick att gripas av att se den gamle vid livets gräns viga in ett nytt liv. Prostinnan såg ingenting, så bländad var hon av tårar. Hon mindes Eliæ förutsägelse vid Hannas lysning, och hon förstod, att han valt detta ögonblick att avsluta sin livsgärning, emedan han i detta barn såg ett levande insegel på bönhörelse. Hon visste, att han plågats av tvivel om utgången av den strid han förutsagt mer än en<pb n="302"/> gång, och hon unnade honom den förvissning han nu tycktes ha fått — hur visste hon inte. Hela deras liv tillsamman stod ett ögonblick för henne, med all hennes medvetna vägran att helt glida in i hans värld, emedan <hi>en</hi> alltid fick lov att göra grovgörat, som hon brukat säga för sig själv. Och nu äntligen, efter trettio års äktenskap, förnam hon, huru de icke längre voro två utan ett. Och omsorgerna sjönko undan, inte ens pastor Ljungheds ansikte blev en plåga mer, som det varit i sin påminnelse om ett sviket hopp. Hon hade blott en önskan till, den, att Elias, utan att hon behövde förklara, skulle förstå något av vad som rörde sig inom henne.</p>
-<p>Även de två som visste allt, hade en känsla av att detta ögonblick icke kunde besudlas av de syften i vilka de kommit hit. Själva namngivandet: jag döper dig, Ida, i Faderns, Sonens och Den Helige andes namn, blev renat från hä&#x00AD;, delse, när orden kommo från dessa läppar.</p>
+<p>Även de två som visste allt, hade en känsla av att detta ögonblick icke kunde besudlas av de syften i vilka de kommit hit. Själva namngivandet: jag döper dig, Ida, i Faderns, Sonens och Den Helige andes namn, blev renat från hä­, delse, när orden kommo från dessa läppar.</p>
 <p>Men med orden: Gån i Herrans frid, var stämningen bruten, och vad som hänt var nu åter för dem båda en seger över hustrun därhemma och ett knep att förvilla världen, dess mera lyckat, som prosten självmant gett ceremonien än större värdighet och glans. Om söndag visste ju hela socknen vem som döpt lilla Ida i Mellangården.</p>
 <p>Men från den stunden, då de kommo åter, hade barnet förlorat moderns kärlek. Och hennes känslor voro endast blygsel och motvilja.</p><pb n="303"/>
 <p>Ida hämnades på Hanna för besväret att flytta genom att under de sista dagarna i Mellangården reta upp Franse mot hustrun så mycket hon förmådde. Hon fann en fullkomlig njutning i att vara grym och fräck, och Hanna måste säga sig, att Ida tydligen önskade ett uppträde. Hon var ursinnig, men besluten att i det stycket inte låta henne få sin vilja fram. Så stängde hon sig inne med sitt hat och lyckades med uppbjudande av alla sina krafter hålla sig lugn in till sista kvällen. Hon hade hållit sig i boden hela flyttedagen och inte låtsats märka, att Franse tog fritt från affärerna för att hjälpa Ida. När hon stängt boddörren på kvällen, blev hon med flit kvar därinne, ordnade och plockade ännu en timme i lådor och på hyllor. Det hade blivit så slarvigt, medan hon legat sjuk, så en städning var väl behövlig.</p>

@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE11729834"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE11729834" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">67255</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Familjen Vinge</title>
      <ref target="https://litteraturbanken.se/författare/SandelM/titlar/FamiljenVinge1909/sida/1/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Familjen Vinge. En bok om verkstadsgossar och fabriksflickor.</title>
      <publisher>Social-Demokratens original-följetong. Stockholm, <date>1909.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/11729834</idno>
      <!-- ><ref target="">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek.</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -209,7 +215,7 @@
 <l>stig,</l>
 <l>Och mororna de klaga med högtlyfta </l>
 <l>händer,</l>
-<l>Så hakorna vippa de snattra om brän&#x00AD;</l>
+<l>Så hakorna vippa de snattra om brän­</l>
 <l>der,</l>
 <l>Som brukas mot häxor och troll,</l>
 <l>De räkna mitt värde till noll.</l> 
@@ -901,7 +907,7 @@
 <p>Ivar dröjde med svaret. Ett egendomligt leende spelade kring hans läppar medan han med ett nästan omärkligt skelande såg på Edith, som hade sin uppmärksamhet fäst vid gåvan. Men när hon så fångade hans blick, bytte den genast uttryck, blev öppen och dristig.</p>
 <p>– En och fyra, svarade han lugnt.</p>
 <p>Genast orden gått över hans läppar, var det som om han ryggat inför en fara, och det var med fällda ögonlock han avvaktade vad som skulle komma. Men vid Ediths svar samlade han sig i hast till ett uttryck av oförställt hån.</p>
-<p>– En och fyra<ref target="#SWE11729834_N1"/>, upprepade hon förbluffad och synbarligen utan begrepp om ordens verkliga betydelse. En och fyra! Försök inte. Jag låter inte narra mig så lätt.</p>
+<p>– En och fyra<ref target="#SWE11729834_N1"/><ref target="#SWE11729834_N1"/>, upprepade hon förbluffad och synbarligen utan begrepp om ordens verkliga betydelse. En och fyra! Försök inte. Jag låter inte narra mig så lätt.</p>
 <p>– Liten oskuld!</p>
 <p>Hans ton sårade Edith, han förekom dock varje ogillande utlåtelse, genom att hjärtligt säga, i det han gav hennes arm en smeksam tryckning: Bry dig nu inte om vad den kostar. Ingenting är gott nog åt dig, tycker jag. Jag hoppades också att du skulle bli glad ... Hans röst <pb n="155"/> hade fått en anstrykning av bitterhet och med utmärkt maskering spelade han nu förorättad. Och i detamma låg vägen klar för den unga kvinnan. På det älskligaste sätt sökte hon gottgöra sitt förmodade fel och det var till sin stora glädje, hon fann Ivar mycket villig att försonas.</p>
 <p>Så snart kaffet var drucket, beredde de sig till avfärd. Men det skulle bli ännu ett uppehåll. Medan Edith rullade samman täcket för Ivar att bära, framkastade han litet vårdslöst: </p>
@@ -1598,9 +1604,9 @@
 <l>Fast saknadens gamar i hjärtnerven rista.</l>
 <l>Nej, ring att kläppen den flammar röd: </l>
 <l>Din udd är bruten, Död.</l> 
-<l>Din udd är bruten, din glaven splitt&#x00AD;</l>
+<l>Din udd är bruten, din glaven splitt­</l>
 <l>rad,</l>
-<l>Cypressbundna kronan är bleknad, för&#x00AD;</l>
+<l>Cypressbundna kronan är bleknad, för­</l>
 <l>vittrad,</l>
 <l>Den kära där under mulltäckt lock, </l>
 <l>Hon lever, lever dock.</l> 
@@ -1817,7 +1823,7 @@
 <p>– Det har pappa sagt så länge.</p>
 <p>– Om söndag, det lovar jag dig. Far dök beslutsamt ned i tidningsspalterna för att komma undan sin flickunges bedjande ögon.</p>
 <p>Emellertid gick det skralt för honom att få sammanhang i det han läste. Han måste oupphörligt se från raderna till det blonda lockhuvudet, som var böjt över bibliskan. Stjärnblomster, tänkte han, stjärnblomster ... Och för sin inre blick såg han den lilla stuga, i vilken han under en kort frist från det uppslitande brödjäktet fått framleva några ljuvliga sommarveckor, såg rabatten ... Så barnsliga han och Ruth då varit! Han måste le. Storstadsbarn, som de båda voro, hade de inte förstått sig på sådd och plantering stort mer än en ångvält. Men så hade Ruth fått litet frö, och de strödde ut det i jorden, så gott de förstodo, vattnade och, du store, vad de varit nyfikna, hur det skulle gå med deras arbete. Deras första tanke på morgonen var att se efter, om något grönt syntes. Och<pb n="313"/> äntligen stack där upp en fin grön brodd, och sen ... och sen ... Ja, en vacker dag fanns där en vajande luftig här av vita stjärnor.</p>
-<p>Månader efter i ett mörkt kyffe med utsikt åt en svartgrå brandmur hade Vera första gången sett ljuset. Och när han såg den lilla vita varelsen vid sin hustrus bröst, gav han henne i sitt hjärta namn efter sommarens väna blomsterminne – stjärnblommorna.<ref target="#SWE11729834_N2"/></p>
+<p>Månader efter i ett mörkt kyffe med utsikt åt en svartgrå brandmur hade Vera första gången sett ljuset. Och när han såg den lilla vita varelsen vid sin hustrus bröst, gav han henne i sitt hjärta namn efter sommarens väna blomsterminne – stjärnblommorna.<ref target="#SWE11729834_N2"/><ref target="#SWE11729834_N2"/></p>
 <p>Ja, det var då, det! fortfor far i sin tankegång och suckade vid minnet av rabatten. Nu var han ju bliven en mer insiktsfull blomsterodlare, men ett par meter jord – ah, det var att önska det oupphinneliga.</p>
 <p>– Vad funderar pappa på? Frågade Vera plötsligt. Pappa har tittat på mig en lång stund.</p>
 <p>– Hm ... Detta var fars enda svar och så gömde han sig leende bakom tidningen.</p>

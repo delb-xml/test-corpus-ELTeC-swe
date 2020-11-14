@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1649001"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1649001" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,22 +20,24 @@
     <measure unit="words">60783</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>David Ramms arv</title>
      <ref target="https://litteraturbanken.se/författare/AnderssonD/titlar/DavidRammsArv/sida/3/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>David Ramms arv.</title>
      <publisher>Tidens förlag, Stockholm <date>1919.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1649001</idno>
      <!-- <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->  
-     </bibl>
-   </sourceDesc>
+     </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -50,6 +55,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -640,7 +646,7 @@
 <pb n="195"/>       
 <l>Du västan som stormar med högröstad sorg i</l>
 <l>ditt sus,</l>
-<l>kom bär mig på vingar högt upp under stjärnor&#x00AD;</l>
+<l>kom bär mig på vingar högt upp under stjärnor­</l>
 <l>nas ljus!</l>
 <l>Lyft upp mig från jorden du harpa med dansande</l>
 <l>ton,</l>
@@ -656,7 +662,7 @@
 <l>i kväll må all himlarnas orglar väl spela för mig!</l> 
 <l>Ni kära som vänta er son från ett främmande</l>
 <l>land</l>
-<l>befallen er länge i natt i den store beskydda&#x00AD;</l>
+<l>befallen er länge i natt i den store beskydda­</l>
 <l>rens hand!</l><pb n="196"/><l>Ty molnen gå tunga men Gud är rättfärdig och</l>
 <l>god,</l>
 <l>fast morgonens glans är som glansen av kallnande</l>

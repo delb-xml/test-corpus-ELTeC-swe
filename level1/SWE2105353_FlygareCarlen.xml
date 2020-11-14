@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE2105353"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE2105353" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,25 +20,27 @@
     <measure unit="words">188240</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Rosen på Tistelön</title>
      <ref target="https://litteraturbanken.se/författare/FlygareCarlénE/titlar/RosenPåTistelön1/sida/3/etext"/>
      <ref target="https://litteraturbanken.se/författare/FlygareCarlénE/titlar/RosenPåTistelön2/sida/385/etext"/>     
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Rosen på Tistelön. Berättelse från skärgården.</title>
      <publisher>N. H. Thomson, Stockholm  <date>1842.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/2105353</idno>
      <idno type="libris">http://libris.kb.se/bib/2105354</idno>
      <!--  <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -53,6 +58,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -841,7 +847,7 @@
 <div type="chapter">
 <head>Trettonde Kapitlet.</head> 
 
-<l><hi>Visa den irrande rätt: ty den gode, den him</hi>&#x00AD;</l>
+<l><hi>Visa den irrande rätt: ty den gode, den him</hi>­</l>
 <l><hi>melske herden</hi></l>
 <l><hi>Tog det förvillade lam på sin arm, och bar det till</hi></l>
 <l><hi>modern.</hi></l>
@@ -1348,7 +1354,7 @@
 
 <l><hi>Han kommer, <hi>hjertats</hi> Maj – de svalla, blodets</hi></l>
 <l><hi>vågor</hi>;</l>
-<l><hi>Och du skall brinna sjelf och du skall tända lå</hi>&#x00AD;</l>
+<l><hi>Och du skall brinna sjelf och du skall tända lå</hi>­</l>
 <l><hi>gor.</hi></l>
 <p><hi>Valerius</hi>.</p> 
 <p><hi>Under</hi> männernas rådplägning satt Gabriella på sin kammare och begrundade den bittra nyheten om Rosenbergs tillernade afresa. Det var hennes första sorg, och den första sorgen är alltid smärtsam. Hon till och med gret vid tanken på den enslighet, som nu skulle inträda; det var numera knappt möjligt att ens lefva bland Tistelöns nakna klippor (hon ansåg dem för första gången sådana), sedan Rosenberg lenmat dem, och det troligen för att aldrig mera återkomma.</p>
@@ -1564,7 +1570,7 @@
 <l>– – –  <hi>kommer min son. Det käns i mitt hjerta</hi></l>
 <l><hi>Slå så besynnerligt. Se, huru katten vid foten af</hi></l>
 <l><hi>bordet</hi></l>
-<l><hi>Slickar sin tass och kammar sitt skägg och bor</hi>&#x00AD;</l>
+<l><hi>Slickar sin tass och kammar sitt skägg och bor</hi>­</l>
 <l><hi>star sin nacke:</hi></l>
 <l><hi>Det betyder ju fremmand’ i alla förnuftigas tanke.</hi></l>
 <p><hi>Franzén</hi>.</p> 
@@ -3314,9 +3320,9 @@
 <p>Middagen var förbi, Anton som vanligt ute och Haraldson i sin kammare, der han tog sin lur på maten. Hvarje ögonblick kunde jakten komma. Och sedan Gabriella påtagit den vackra nya klädningen och flygtigt beundrat hur den klädde henne, ställde hon sig med högt klappande hjerta vid fönstret i sin kammare.</p>
 <p>Nu voro alla tankar på Rosenberg förgätna, på allt, så väl det förflutna som det framtida; endast kärleken och Arnman gaf lif åt de flygande pulsarne. Men tiden förgick, hon hörde sin far gå i kammardörren, och nu måste hon gå ner, för att slå i kaffe.</p>
 <p>”Se här, pappa, jag har passat min nya klädning, för att ha något, att roa mig med i ensligheten; tycker inte pappa att den är vacker?” frågade hon och vände sig på tå framför gubben.</p><pb n="696"/>
-<p>”Åh jo, mycket vacker; det är bara skada att du inte fick visa dig i stan! Men om du vill, skall du få följa med på makril-dörje<ref target="#SWE2105353_N1"/> i qväll? Jag tar ett par af karlarne med mig.”</p>
+<p>”Åh jo, mycket vacker; det är bara skada att du inte fick visa dig i stan! Men om du vill, skall du få följa med på makril-dörje<ref target="#SWE2105353_N1"/><ref target="#SWE2105353_N1"/> i qväll? Jag tar ett par af karlarne med mig.”</p>
 <p>”Det vore allt roligt, pappa lilla! Men nu är det så att jag väntar Lena hit. Jag har lofvat klippa till en klädning åt henne.”</p>
-<p>”Så så, det var bra; då får du någon att språka med. Tratta nu lite konjak på resflaskan och lägg in lite merafta<ref target="#SWE2105353_N2"/>, för jag har sagt till om båten!”</p>
+<p>”Så så, det var bra; då får du någon att språka med. Tratta nu lite konjak på resflaskan och lägg in lite merafta<ref target="#SWE2105353_N2"/><ref target="#SWE2105353_N2"/>, för jag har sagt till om båten!”</p>
 <p>”Straxt, pappa!” Gabriella vidrörde knappt golfvet. Allt gick ju så förträffligt i lag. Och ehuru det var sannt att Lena begärt få en klädning tillklippt, var det likväl icke sagdt att hon skulle komma just i dag; men gjorde hon det, finge hon väl lemna tyget qvar till lägligare tid.</p>
 <p>Fortare än Haraldson någonsin blifvit betjenad, var allt färdigt och i båten. Under tillönskan att Lena snart måtte komma och roa hans skatt, reste gubben af, och Gabriella stod på bryggan, vinkade med näsduken och ropade: ”Adjö, pappa lilla! Välkommen snart hem!” Men hennes ögon spanade åt annat håll och upptäckte äfven, <pb n="697"/> sedan dörjebåten vikit om udden, en rörlig punkt i fjerran, hvilken hennes hjerta sade henne måste vara tulljakten.</p>
 <p>Gabriella missräknade sig icke. En halftimma senare sprang Arnman upp på bryggan och straxt derefter in i dagliga rummet.</p>

@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1643785"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1643785" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">104048</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Hemma i Jockmock</title>
      <ref target="https://litteraturbanken.se/författare/AgrellA/titlar/HemmaIJockmock/sida/3/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Hemma i Jockmock. En skildring ur småstadslifvet sådan den är.</title>
      <publisher>Fr. Skoglunds förlag, Stockholm <date>1896.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1643785</idno>
      <ref target="http://runeberg.org/jockmock/">PDF version</ref> 
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -3615,7 +3621,7 @@
 <p>Att bli mästrad af <hi>brackor</hi> är förbannadt obehagligt, och jag undrar visst inte på att han tog sin matts ur skolan. — — —</p>
 <p>Jag ska säga tant Lova, att Johanson är så öfverlägsen oss <hi>allesammans</hi>, att vi har största skäl se upp till honom. En sådan människa som han <hi>måste</hi> skapa sin egen moral, och att han lefver efter hvad han skapar, är förbannadt duktigt. För öfrigt är han ovanligt ordentlig i affärer och hjälper en gammal moster, om <hi>det</hi> duger!</p>
 <p>Jag får be om ursäkt om jag skrifver ohöfligt, men jag är så arg, så jag kan inte annat.</p>
-<p>För öfrigt antar jag, att tant Lova, som så styft<pb n="230"/> håller på <hi>sin</hi> rätt att tala ut, väl ingenting lär ha emot om <hi>andra</hi> begagnar sig af samma rätt.&#x2003;&#x2003;&#x2003;&#x2003;Villy.»</p>
+<p>För öfrigt antar jag, att tant Lova, som så styft<pb n="230"/> håller på <hi>sin</hi> rätt att tala ut, väl ingenting lär ha emot om <hi>andra</hi> begagnar sig af samma rätt.    Villy.»</p>
 <p>Jag stirrade på brefvet, till dess både ögonen och hjärta sved i kapp. Så drog jag till mig ett pappersark och skref, fast jag såg allt som i en dimma:</p>
 <p>»Tro mig, min gosse, du ser på den där herrn från galen ände. Betrakta honom, inte nedifrån och <hi>upp</hi>, utan <hi>uppifrån</hi> och ned, så får du rätt syn på honom.</p>
 <p>Hvad det angår att ingen stöter sig med honom, är det ett <hi>fullkomligt</hi> misstag. <hi>Jag</hi> stöter mig med honom och det så mycket jag någonsin orkar!!</p>
@@ -3682,7 +3688,7 @@
 <p>Har hon och kapten ’legat i den luf’ hela tiden, så —!</p>
 <p>Biljetten ljöd:</p>
 <p>»Min Lovise!</p>
-<p>Om onsdagaften klocken fem jack dricke kaffe mith mick själf und vare glad om ni alle vill jere det samme.&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;Vännen</p>
+<p>Om onsdagaften klocken fem jack dricke kaffe mith mick själf und vare glad om ni alle vill jere det samme.         Vännen</p>
 <p>Mariana Ungfrau.»</p>
 <p>På onsdagen snöade det lappvantar, som det heter, och fram på middagen var hela Jockmock begrafd i snö. Men hvem bryr sig om sån’t, här uppe!</p>
 <p>Presis klockan tre kvart till 5 var vi påpälsade ändå och färdiga till uppbrott, Maja så glittrande glad, att jag knappt fick bukt med henne, tack vare en förgät-mig-ej, som hon snappat åt sig ur mitt bref från Thore, fast det inte stod något ’ta’ på den, efter brefvet <hi>var</hi> adresserat till mig.</p>
@@ -4011,7 +4017,7 @@
 <p>I morse fick jag en liten biljett från fru Ungfrau, som ljöd så här:</p>
 <p>»Min Lovise!</p>
 <p>Du vare en micket schtor schalk! Aber jack ferlåte dick. — Den kapten eftertelegraferad. Torsdagsaften ferlofningskalas <hi>mith</hi> i ferlofvande par.</p>
-<p>Din gamle vän&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;L. U.</p>
+<p>Din gamle vän      L. U.</p>
 <p>Jag blef så glad, att Ruffen och Maja måste in och dricka scherry med mig, fast det var på blanka förmiddagen.</p>
 <p>»Skål gubben lilla», sa jag och stötte mitt glas mot Ruffens.</p>
 <p>»Hvad tror du »der-di-das» ska komma att säga om det här?»</p>

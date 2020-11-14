@@ -1,5 +1,9 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8410781"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8410781" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -16,23 +20,25 @@
     <measure unit="words">69466</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Fyra Giftermål. I, Kärlek och kärlek</title>
      <ref target="https://litteraturbanken.se/författare/SnellmanJV/titlar/FyraGiftermål/sida/III/etext?om-boken"/>
-    </bibl>
-   
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Fyra Giftermål. Taflor i Terburgs manér. I, Kärlek och kärlek</title>
      <publisher>L. J. Hjerta, Stockholm <date>1842.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/8410781</idno>  
      <!--   <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -50,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -102,7 +109,7 @@
 </div>
 <div type="group">
 <head>KÄRLEK OCH KÄRLEK.</head> 
-<p>______></p> 
+<p>______&gt;</p> 
 <div type="chapter">
 <head>I.</head> 
 <p>«Ack, om du visste, hvad jag dagligen lider af hans köld! Intet hjertligt ord, ingen varm blick. Förgäfves gör jag allt mitt till för att behaga honom – (med en blick i spegeln midt emot) tiden måtte fasligt hafva härjat de få behag, jag fordom egde – åtminstone i hans ögon. Icke sannt, jag är grymt förändrad?»</p>
@@ -237,7 +244,7 @@
 <head>III.</head> 
 <p>Då berättaren ser tillbaka på början af sednaste kapitel, så förtretar det honom rätt att der hafva anställt en beräkning öfver den tid, som förflutit mellan händelserna i det första och dem i det andra kapitlet, om eljest sådant får kallas händelser.</p>
 <p>Ty det är besatt enfaldigt att vilja rätta skildringen efter tiden, då tvärtom tiden bör rätta sig efter skildringen. Kan läsaren icke af denna märka hvad klockan är slagen, så har antingen han låtit midnatt inträda för sin konklusionsförmåga, eller är skildringen ohjelpligen misslyckad. Som detta omöjligen kan vara händelsen, så behagade den älskvärda läsarinnan för framtiden taga sig till vara. Spelar hon sin tjusande roll under hymens dok, så har hon i erfarenheten en förträfflig tidmätare; ser hon ännu endast bland sina rosendrömmar hymens lågande fackla i en skön och leende engels hand, så kan hon ändock känna tiden i luften, som det heter; ty alla drömmar taga slut då hon vaknar, till ungefär middagstiden är sjelfva minnet af dem förjagadt, och på aftonen är <pb n="49"/> hon trött af dagens möda eller dansens, eller af kavaljerers sladder.</p>
-<p>Apropos<ref target="#SWE8410781_N1"/> af kavaljerssladder, så är, som man vet, detta det enda och bästa sätt, en modernt uppfostrad flicka eger att lära känna sin tillkommande man. Det lider dock intet tvifvel, att en sådan der kavaljer har många egenskaper, om hvilka han icke säger ett ord. Så t. ex. äro de alla, för att hafva händerna lediga för hatten samt till handskarnes af- och pådragning, utan att derföre sätta sällskapet i förlägenhet, försedda med hängslen, men samma blygsamhet, som förestafvat dem detta försigtighetsmått, hindrar dem i nio fall bland tio att nämna något derom. Att de låta dem framskymta mellan västslagen, sker endast derföre, att persedlarne äro splitter nya, af siden eller så bortåt. Skulle ej den omständigheten, att de gå på två ben, ligga för öppen dag – hvilket den icke gör hos våra moderna damer – så skulle äfven deras tystnad i detta fall böra lofordas. Felar någon i denna punkt, så inser hvarje flicka med verldserfarenhet och med det säkra omdöme, som tillhör hela könet, att en sådan kavaljer är egenkär. Mången ung dam vill kanske finna spår af denna odygd i kavaljerernas vana att oupphörligen tala om vädret. Det låter visst <pb n="50"/> förmätet, då en sådan underrättar den unga damen, icke blott om hvad väderlek som bör väntas för morgondagen, utan äfven hurudant vädret är i dag, ja hurudant det var i går, sednaste veckan o. s. v. Men man hör härvid noga skilja, om de anföra något om dagens väderlek såsom vore det deras upptäckt, eller blott omtala det såsom en nyhet för dagen; ty 99 gånger bland hundrade säga de i detta afseende intet annat, än hvad de förut någonstädes hört berättas. Helt och hållet kan man likväl icke fritaga en kavaljer från begäret att lysa, om han alltför mycket brådskar att lemna sin dam del af den intressanta nyheten, hvilken hon kanske sjelf skulle önskat meddela honom. Väntar han deremot och går han så långt i sjelfförsakelse, att han, då hennes tjusande läppar uttalat det intagande: «Vi ha ett rätt vackert väder i dag», utropar ett: kors! ack så intressant! eller något dylikt, så kan hon vara säker på, att hans frack innesluter en högtänkt och ädel själ. En sådan kavaljer måste säkert bli en uppmärksam och undergifven äkta man.</p>
+<p>Apropos<ref target="#SWE8410781_N1"/><ref target="#SWE8410781_N1"/> af kavaljerssladder, så är, som man vet, detta det enda och bästa sätt, en modernt uppfostrad flicka eger att lära känna sin tillkommande man. Det lider dock intet tvifvel, att en sådan der kavaljer har många egenskaper, om hvilka han icke säger ett ord. Så t. ex. äro de alla, för att hafva händerna lediga för hatten samt till handskarnes af- och pådragning, utan att derföre sätta sällskapet i förlägenhet, försedda med hängslen, men samma blygsamhet, som förestafvat dem detta försigtighetsmått, hindrar dem i nio fall bland tio att nämna något derom. Att de låta dem framskymta mellan västslagen, sker endast derföre, att persedlarne äro splitter nya, af siden eller så bortåt. Skulle ej den omständigheten, att de gå på två ben, ligga för öppen dag – hvilket den icke gör hos våra moderna damer – så skulle äfven deras tystnad i detta fall böra lofordas. Felar någon i denna punkt, så inser hvarje flicka med verldserfarenhet och med det säkra omdöme, som tillhör hela könet, att en sådan kavaljer är egenkär. Mången ung dam vill kanske finna spår af denna odygd i kavaljerernas vana att oupphörligen tala om vädret. Det låter visst <pb n="50"/> förmätet, då en sådan underrättar den unga damen, icke blott om hvad väderlek som bör väntas för morgondagen, utan äfven hurudant vädret är i dag, ja hurudant det var i går, sednaste veckan o. s. v. Men man hör härvid noga skilja, om de anföra något om dagens väderlek såsom vore det deras upptäckt, eller blott omtala det såsom en nyhet för dagen; ty 99 gånger bland hundrade säga de i detta afseende intet annat, än hvad de förut någonstädes hört berättas. Helt och hållet kan man likväl icke fritaga en kavaljer från begäret att lysa, om han alltför mycket brådskar att lemna sin dam del af den intressanta nyheten, hvilken hon kanske sjelf skulle önskat meddela honom. Väntar han deremot och går han så långt i sjelfförsakelse, att han, då hennes tjusande läppar uttalat det intagande: «Vi ha ett rätt vackert väder i dag», utropar ett: kors! ack så intressant! eller något dylikt, så kan hon vara säker på, att hans frack innesluter en högtänkt och ädel själ. En sådan kavaljer måste säkert bli en uppmärksam och undergifven äkta man.</p>
 <p>För öfrigt inses utomordentligen lätt, att en kavaljers tal om den eller den supeen, om sednaste balen eller spektaklet, hör till samma kategori, som väderreflexionerna. Möjligen må en äkta kavaljer under pågående spektakel säga, att den eller den af de spelande är charmant, då han nyss förut hört personens spel handklappas, men aldrig bör han före <pb n="51"/> nästföljande afton utlåta sig öfver pjesen, eller på en bal vid första françaisen klaga öfver värme; ty detta skulle bevisa egenkärlek och fallenhet för egna tycken. Vare långt ifrån oss att vilja beröfva balkonversationen dess mest pikanta och lifgifvande krydda, de ömsesidiga försäkringarne om den «förfärliga» hettan. Men att vilja gälla för dennas upptäckare och genast vid första dansen meddela sin sköna moitié denna upptäckt, vittnar om ett alltför stort begär att utmärka sig. Utbreder man sig deremot senare på qvällen öfver det rikhaltiga ämnet, så kan det alltid förutsättas, att både upptäckten och reflexionerna tillhöra någon annan serdeles snillrik person af sällskapet. Det synes också derföre blifvit god ton att först vid andra valsen eller tredje françaisen göra värme, qvalm, hetta till allmänna samtalsämnen. Beklaga bör man blott de olägenheter, som härmed äro förknippade, hvaribland må räknas: att balen derigenom först något senare än eljest blir rätt animerad, att damerna i allmänhet först då hafva tillfälle att visa sina solfjädrar, och serdeles de bland de ogifta, hvilka hunnit odödligheten (d. v. s. tjugufyra år) och hvilka icke kunna påräkna några skyldighetsdansörer, då först kunna aflägga sina shawletter. En ojemförligt mindre olägenhet är den, som medföres af hvarje modern likformighet, att man icke lika säkert som eljest af personens uppförande kan sluta till hans tänkesätt.</p>
 <pb n="52"/>	  
 <p>Men faran att förstora denna sistnämnda svårighet åtföljer tyvärr äfven hvarje författarskap, som vill vara lärorikt. Vore undertecknad ej så fast öfvertygad, att ingen rätt kavaljer läser mera än titelbladet till dessa ovärderliga skildringar och recensionen öfver dem i Aftonbladet, hvilken i förbigående sagdt också är byggd på ett sådant kavaljersstudium, så skulle han icke våga att här så öppet utreda den återstående vigtiga frågan, huru en ung dam – en äldre har alltid mera direkta och så att säga handgripliga medel för pröfningen – kan öfvertyga sig om en kavaljers uppriktiga och trogna kärlek. Att detta ej kan utletas ur hvad en kavaljer säger, är tydligt, då han hvarken talar eller bör tala om annat än vädret, supeer, baler och spektakler, och då, såsom visats, den värma, han på en bal försäkrar sig tydligen förspörja, ofta är illusorisk. Hvarje flicka vet deremot, att det mest osvikliga tecken – uppbjudning till kottiljongen en vecka förrän den dansas kommer dernäst – på sann kärlek visar sig i riktningen af hans lorgnett eller operakikare. Är den en hel afton fästad för ögat och, med högst en half minuts afbrott, har samma riktning, så kan frågan anses vara så godt som afgjord. Men blott «så godt som»; ty här återstår en punkt af högsta vigt, som troligen endast få af det täcka könet lärt sig att gifva akt på – jag menar <pb n="53"/> de älskansvärda få, hvilka undertecknad muntligen gjort uppmärksamma på saken.</p>

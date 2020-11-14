@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8222888"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8222888" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">46793</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>En rackarunge</title>
      <ref target="https://litteraturbanken.se/författare/NordströmEB/titlar/EnRackarunge/sida/3/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>En rackarunge.</title>
      <publisher>Wahlström &amp; Widstrand. Stockholm <date>1919.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/8222888</idno>
      <!-- ><ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Pedag. Sv. Barnb.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -678,7 +684,7 @@
 <p>Uppe i bersån dryftades noggrant denna fråga, som var så lite vardaglig, men nu plötsligt kastats över dem och fordrade en lösning. Ann-Maris moster skrev, att hon häromdagen fått ett brev från sin systerdotter, som på det högsta både upprört och förskräckt henne.</p>
 <p>»Jag medsänder en del av hennes brev så att pastor Dammel själv kan bilda sig ett<pb n="129"/> omdöme.» Och ett par ark av Ann-Maris brev följde också mycket riktigt med:</p>
 <p>— Moster lilla, skrev hon med stora sneda bokstäver och en stavning, som kom pastor Dammel, såsom hennes lärare, att bäva:</p>
-<p>»Josef är inte alls som någon mördare å du förstår nog också det nu, när du läst min beskrivning av mordet. Han är så snäll, men han ser så blek och lessen ut. Ingen vill ta honom till dreng för alla vet, att han slagit ijäl sin morbror och småungarna skriker bara dom ser honom. Och ingen vill tala me honom en gång. Mer än jag. Han vill så gärna till Amerika, men han har inte mer än ett par hundringar, säger han, de betyder tvåhundra kroner. Älskade lilla mostermor, kan inte jag få hjälpa honom att resa till Amerika? Du vet, att du lovat mig en ridhäst, när jag konnfirmeras. De blir inte förrän om två år, men de gör välan ingenting. Om du ville låna honom till exempel tusen kroner i stället så bryr jag mej ingen ridhest om. Jag kan få rida på Alberts som jag har gjort förr när han inte är hemma. De går pricis lika bra. Du kan vara seker på att du får pengarna tilbakas för Josef vill bara låna. Han vet inte alls om att jag skriver, men o vad jag hoppas att du säger ja. Du kunde skicka honom pengarna anenymt. Gör det, lilla rara älskling — om du kände Josef<pb n="130"/> skulle du förstå hur synd de är om honom. O, moster han är så blek och lessen. Svara snart. &#x2003;&#x2003;&#x2003;&#x2003;<hi>Ann-Mari</hi>.»</p>
+<p>»Josef är inte alls som någon mördare å du förstår nog också det nu, när du läst min beskrivning av mordet. Han är så snäll, men han ser så blek och lessen ut. Ingen vill ta honom till dreng för alla vet, att han slagit ijäl sin morbror och småungarna skriker bara dom ser honom. Och ingen vill tala me honom en gång. Mer än jag. Han vill så gärna till Amerika, men han har inte mer än ett par hundringar, säger han, de betyder tvåhundra kroner. Älskade lilla mostermor, kan inte jag få hjälpa honom att resa till Amerika? Du vet, att du lovat mig en ridhäst, när jag konnfirmeras. De blir inte förrän om två år, men de gör välan ingenting. Om du ville låna honom till exempel tusen kroner i stället så bryr jag mej ingen ridhest om. Jag kan få rida på Alberts som jag har gjort förr när han inte är hemma. De går pricis lika bra. Du kan vara seker på att du får pengarna tilbakas för Josef vill bara låna. Han vet inte alls om att jag skriver, men o vad jag hoppas att du säger ja. Du kunde skicka honom pengarna anenymt. Gör det, lilla rara älskling — om du kände Josef<pb n="130"/> skulle du förstå hur synd de är om honom. O, moster han är så blek och lessen. Svara snart.     <hi>Ann-Mari</hi>.»</p>
 <p>— Lilla Ann-Mari! mumlade fru Dammel igen, när hon läst det.</p>
 <p>— Nu skriver hennes moster och ber, att genom mig få reda på om saken förhåller sig så som Josef relaterat den för Ann-Mari, sade pastorn. Och vill också veta vad slags karl han är.</p>
 <p>— Nå? frågade doktor Didrik. Hurdan människa är det?</p>

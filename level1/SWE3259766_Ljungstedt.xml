@@ -1,7 +1,9 @@
-
-<?xml-model href="../Schemas-master%202/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE3259766"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE3259766" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -19,23 +21,25 @@
     <measure unit="words">98500</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Hin Ondes hus</title>
      <ref target="https://litteraturbanken.se/författare/LjungstedtA/titlar/HinOndesHus/sida/1/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Hin Ondes hus. En berättelse af Richard. Svenskt original.</title>
      <publisher>Alb. Bonniers förlag, Stockholm <date>1853.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/3259766</idno>
      <!--   <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek.</note>     
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -53,6 +57,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -66,9 +71,9 @@
 <p>EN BERÄTTELSE</p>  
 <p><hi>AF</hi></p>  
 <p><hi>RICHARD</hi></p>  
-<p>______></p>   
+<p>______&gt;</p>   
 <p>SVENSKT ORIGINAL.</p>   
-<p>______></p>   
+<p>______&gt;</p>   
 <p>I drömmar börjar all mensklig kunskap . . . </p>
     <p><hi>Bulwer</hi>.</p>   
 
@@ -313,7 +318,7 @@
 <p>Jag betraktade det ännu närmare, och porträttet, som var förträffligt måladt, tycktes borra sina ögon i mina så djupt, att jag vände mig derifrån med en lindrig rysning<pb n="32"/>, ty det ligger något hemskt i den målade bilden af en längesedan afliden, – denna uppenbarelse ifrån grafven, hvars stumma läppar och orörliga ögon tala till oss ett språk, som vi känna inom oss, men icke förstå.</p>
 <p>Jag tog taflan för att sätta bort den, då några ord på baksidan föllo mig i ögonen.</p>
 <p>Jag förde den åter till ljuset och läste med någon svårighet namnet ”Edvard”. Hans namn också! tänkte jag förvånad; låt se! det behöfs blott att det följande är ”Herbert”, för att icke längre hysa något tvifvel att detta porträtt är hans; men det namn som följde derpå – förmodligen ett slägtnamn – var helt och hållet oläsligt. Född <hi>1620</hi>, död <hi>1655</hi>, läste jag vidare med lätthet, ty dessa ord voro större och mera tydligt skrifna.</p>
-<p>Således en tillfällig, ehuru ovanlig likhet, sade jag för mig sjelf, nöjd att se saken helt naturligt förklarad; men de röda strimmorna som vanställa detta vackra ansigte? Äfven en tillfällighet, eller en nyck af målaren, fortfor jag i min monolog, under det jag noga betraktade de nästan utplånade orden på baksidan, och dervid upptäckte jag ännu något mera, skrifvet med blyerts på sjelfva ramen; och liksom ödet med våld ville truga på mig minnet af min stackars vän, läste jag nu verkligen hans namn, ”Edvard Herbert”, och derunder den 18 September 18 .&#x2003;.&#x2003;, fint, men ganska tydligt skrifvet.</p>
+<p>Således en tillfällig, ehuru ovanlig likhet, sade jag för mig sjelf, nöjd att se saken helt naturligt förklarad; men de röda strimmorna som vanställa detta vackra ansigte? Äfven en tillfällighet, eller en nyck af målaren, fortfor jag i min monolog, under det jag noga betraktade de nästan utplånade orden på baksidan, och dervid upptäckte jag ännu något mera, skrifvet med blyerts på sjelfva ramen; och liksom ödet med våld ville truga på mig minnet af min stackars vän, läste jag nu verkligen hans namn, ”Edvard Herbert”, och derunder den 18 September 18 . . , fint, men ganska tydligt skrifvet.</p>
 <p>Det var påtagligt att Herbert sjelf skrifvit dessa ord: han hade således varit just i denna kammare, der jag nu stod, kanske liksom jag förvånats öfver denna tafla, hvars besynnerliga likhet med honom sjelf han säkert funnit, och denna dato var förmodligen den då han var här, men – den var ju också just den samma som i dag, det var således jemt ett år i qväll sedan han flydde härifrån sjuk och förvirrad, för att dö några timmar derefter.</p>
 <p>Alla dessa besynnerliga tillfälligheter förbryllade mig verkligen, och helt fundersam kastade jag mig på sängen, och det tålde en god stund innan alla de tankar, som äflades och trängdes i mitt hjerta lemnade rum för sömnen; ändtligen blefvo de allt dunklare och otydligare, jag sträckte ut handen, släckte ljuset och somnade.</p><pb n="33"/>
 <p>Jag tyckte mig hafva sofvit ungefär en qvart, då jag vaknade af ett sakta knarrande ljud.</p>

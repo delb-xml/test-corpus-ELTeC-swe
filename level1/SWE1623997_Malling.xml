@@ -1,7 +1,9 @@
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1623997"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1623997" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,23 +20,25 @@
     <measure unit="words">57953</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Alice Brandt</title>
      <ref target="https://litteraturbanken.se/författare/MallingM/titlar/AliceBrandt/sida/3/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Alice Brandt. En kvinnoprofil</title>
      <publisher>H. Österlings förlag, Helsingborg <date>1888.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1623997</idno>
      <!--  <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -52,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -284,7 +289,7 @@
 <p>Jag har ju redan talat med dig om min vän Anna van Meerdervoort, en holländska, som också nyligen kommit hit. <hi>Hon</hi> är genomstilig, kan du tro, elegant – solidt, legitimt elegant (<hi>alltigenom</hi>, begriper du) och stolt. Somliga säga hon är dryg, men det är naturligtvis bara afundsjuka.</p>
 <p>Häromdagen hade jag ett litet äfventyr – jag menar litet omvexling i den vanliga enformigheten. En af Annas slägtingar var på genomresa i staden och helsade på henne – en ung och vacker “Mynheer“, chic som en parisare och nobel som en engelsman – och blef då presenterad för mig. Madame var nådig den dagen och lät oss (oss tre) vara för oss sjelfva inne i det stora vinlusthuset i trädgården. Der sutto vi och pratade länge – franska, naturligtvis, som han talade à merveille. Anna var tyst som vanligt, och jag tror jag slog an på honom, ty när vi skildes – – –  Ja, det är förstås bara dumheter, och lönar sig inte ens att tala om, men bara att se en herre, är så ovanligt här, att man tycker, det är ett rigtigt evènement.</p>
 <p>Men jag glömmer ju det <hi>allra</hi> intressantaste. Här har händt en skandal i pensionen!<pb n="50"/> Det är med Mabel Clifton – du vet, den bleka irländskan, som jag var så förtjust i strax jag kom hit. <hi>Hon har nu rymt med en polack.</hi> Kan du tänka dig! Han bodde på hôtel Gribbon och var mycket stilig, men man tror han är nihilist. Jag kan aldrig förstå, hur de ha träffats, ty jag tycker det skulle vara en komplett omöjlighet att skaffa sig en älskare här, om man än vore aldrig så snedig. Här blef ju ett väsen! Madame var förstås ursinnig, för det att det händt i <hi>hennes</hi> pension, men det tystades ju ned så godt man kunde. Det gör mig förfärligt ondt om stackars Mabel. Hennes rykte är naturligtvis förstördt för alltid.</p>
-<p>Nej, du, nu <hi>har</hi> jag inte tid längre. Jag är rädd att Mademoiselle skall upptäcka, att jag har ljus så sent. Slaflif – när man är 19 år! Skrif till mig, innan jag reser (det blir väl såder i midten af Maj) och sätt mig litet au courant med det, som händer derhemma. Är Emilie lika lifvad för “reformer“ ännu? – nå, det är ju också <hi>din</hi> force! Är Berta ännu lika mycket à la mode? Eller har hon inte varit mest utomlands i vinter? Jag vet ju aldrig något, utom det, som du skrifver till mig, ty pappa, han!!! Tala också litet om Augustas förlofning, och hur det käns att ha en svåger. Jag har ju fått veta<pb n="51"/> så litet om detta intressanta ämne. Nej, nu <hi>måste</hi> jag sluta. &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;Mille amitiés!</p>
+<p>Nej, du, nu <hi>har</hi> jag inte tid längre. Jag är rädd att Mademoiselle skall upptäcka, att jag har ljus så sent. Slaflif – när man är 19 år! Skrif till mig, innan jag reser (det blir väl såder i midten af Maj) och sätt mig litet au courant med det, som händer derhemma. Är Emilie lika lifvad för “reformer“ ännu? – nå, det är ju också <hi>din</hi> force! Är Berta ännu lika mycket à la mode? Eller har hon inte varit mest utomlands i vinter? Jag vet ju aldrig något, utom det, som du skrifver till mig, ty pappa, han!!! Tala också litet om Augustas förlofning, och hur det käns att ha en svåger. Jag har ju fått veta<pb n="51"/> så litet om detta intressanta ämne. Nej, nu <hi>måste</hi> jag sluta.       Mille amitiés!</p>
 <p>Din <hi>Alice.</hi></p>
 <p>P. S. Du tror väl inte jag är betagen i holländaren? – Åhnej, du vet, jag är inte så lättantändlig. Men härute blir man liksom mera “fri“ af sig än derhemma. Du må emellertid inte tro, att jag blifvit förändrad – jag afskyr lika mycket allt “flams“ nu som förr.</p> 
 <p>Madame hade åtagit sig att skaffa Alice ressällskap, då hon skulle lemna pensionen. Det var en gammal tyska från Basel, sedan trettio år bosatt i Lausanne, der hon lärde främlingar franska för en franc i timmen och alltid berättade anekdoter om Lamartine, hvilken hon engång hade sett i sin ungdom och sedan dess bemägtigat sig som sin specialitet. Främlingarne, hennes elever, kallade henne alltid med pietet “Lamartines gamla väninna“, och en dristig engelska, som brukade visa hennes namnteckning i sin <hi>Birthday Motto-Book</hi>, gissade mystiskt på ett ännu intimare förhållande mellan Mademoiselle Bock och “den store romantikern“. Nu såg hon emellertid icke ut, som om hon skulle kunnat dåra någon romantiker – lång, skefaxlad, ett groft rödbrusigt ansigte med en luden vårta på ena<pb n="52"/> näsvingen (ett “<hi>grain de beauté</hi>“ sade samma fantasirika engelska), och stora vattenblå ögon med röda kanter omkring. På hufvudet hade hon grått hår i tre nuancer under en svart tyllrosett, som aldrig ombyttes, och det betydde föga, hvad drägt hon var klädd i – hennes person gaf i sin helhet alltid oföränderligt samma intryck af flottigt, ljust manchester-sammet.</p>
@@ -775,7 +780,7 @@
 <p>– Det är inte <hi>det</hi>, pappa. – Jag har ju förresten aldrig sett honom rida, det jag tror. Men det kan ju hända den <hi>skickligaste</hi> att falla af en häst – – </p>
 <p>– <hi>Inte</hi> de hästar, som man får på ridhuset – det försäkrar jag dig, lilla toka. Dessutom skulle jag nästan anta, att Georg är en <hi>bra</hi> ryttare – han är ju utmärkt skapad, smidig och stark som stål – Var du lugn för, att han vet att hålla sig på en hästrygg!</p>
 <p>Alice bara suckade. Hon hade hundrade likadana orsaker till ängslan, ty bara hon fick en <hi>tanke</hi> på hemmet, som oroade henne, så kunde hon sedan icke slippa den igen; den växte och växte, ända tills den i hennes hjerna blef till en hotande verklighet, och hon förestälde sig alla möjliga fall, och alla konsekvenser. Liksom då hon var barn, skrämde hon upp sig sjelf i <hi>en</hi> föreställning, tills den<pb n="160"/> alldeles beherskade henne, och allt under det hon nästan icke längre kunde skilja emellan hvad som var inbillning och hvad som <hi>icke</hi> var det, bara hungrade hon efter, att hon skulle få <hi>visshet</hi> i det hon ängslade sig för. Det var som när man drömmer en elak dröm och hela tiden nästan medvetet längtar efter att vakna, för att ändtligen bli <hi>säker</hi> på, att det <hi>är</hi> en dröm. Också gick all oro öfver, när hon bara fick bref från Georg! Nå, det stod ju till der hemma precis som vanligt, inte aning om fara – – och hennes stämning slog tvärt om. Hon blef med ens lugn, ibland triumferande glad, liksom hon verkligen hade undslippit en hotande olycka, och fick plötsligt ett lefvande intresse för en massa saker och ting, som i timvis inte hade existerat för henne.</p>
-<p>Georg skref ett par gånger i veckan – mycket regelbundet – någon gång långa ark, oftast bara ett par rader. Det var hon nu beredd på, ty hon visste att han, om han än hade aldrig så mycken <hi>lust</hi> att skrifva när han satte sig till det, bara han fick pennan i handen strax blef otålig att sluta. Brefven voro också för det mesta temligen vårdslöst hopkomna; – hon förestälde sig hur han skref dem: till eftermiddagsposten på kontoret, strax innan det stängdes, eller vid sin sista cigarr<pb n="161"/> om aftonen, innan han gick till sängs. De voro utan öfverskrift, handlade mest om “fakta“, om folk han hade råkat, hvar han hade varit, eller hvad han tagit sig till, och slutade vanligen med: “Jag <hi>kan</hi> inte skrifva bref, käraste, det vet du. Hade jag dig här (tror du jag längtar efter det? – – – ) <hi>bien à moi</hi>, så skulle jag ha hundrade saker att säga dig, men nu äro de så många, att jag vet inte min lefvande råd hur jag skall få dem på papperet. En kyss! &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;Din <hi>G. L.</hi>“</p>
+<p>Georg skref ett par gånger i veckan – mycket regelbundet – någon gång långa ark, oftast bara ett par rader. Det var hon nu beredd på, ty hon visste att han, om han än hade aldrig så mycken <hi>lust</hi> att skrifva när han satte sig till det, bara han fick pennan i handen strax blef otålig att sluta. Brefven voro också för det mesta temligen vårdslöst hopkomna; – hon förestälde sig hur han skref dem: till eftermiddagsposten på kontoret, strax innan det stängdes, eller vid sin sista cigarr<pb n="161"/> om aftonen, innan han gick till sängs. De voro utan öfverskrift, handlade mest om “fakta“, om folk han hade råkat, hvar han hade varit, eller hvad han tagit sig till, och slutade vanligen med: “Jag <hi>kan</hi> inte skrifva bref, käraste, det vet du. Hade jag dig här (tror du jag längtar efter det? – – – ) <hi>bien à moi</hi>, så skulle jag ha hundrade saker att säga dig, men nu äro de så många, att jag vet inte min lefvande råd hur jag skall få dem på papperet. En kyss!       Din <hi>G. L.</hi>“</p>
 <p>– Den styggingen! Han <hi>kunde</hi> då verkligen skrifva litet längre. Hon läste igenom de första punkterna – – Jag ser så väl att han har haft goda afsigter från början – han har begynt så <hi>högt</hi> uppe på sidan, men så – – hon fnyste till. <hi>Lat</hi> och nonchalant förstås. Nå, han skall nog få det igen – – </p>
 <p>Och hon föresatte sig att skrifva bara “två rader“ nästa gång. Men hur det var, blef det alltid minst två ark.</p> 
 <milestone unit="________"/> 

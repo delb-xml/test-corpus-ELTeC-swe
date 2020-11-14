@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE14662244"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE14662244" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,18 +21,21 @@
     <measure unit="words">221572</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Psykologiska gåtor I–III</title>
      <ref target="https://litteraturbanken.se/författare/LjungstedtA/titlar/PsykologiskaGåtor1/sida/1/etext?om-boken"/>
      <ref target="https://litteraturbanken.se/författare/LjungstedtA/titlar/PsykologiskaGåtor2/sida/1/etext?om-boken"/>
      <ref target="https://litteraturbanken.se/författare/LjungstedtA/titlar/PsykologiskaGåtor3/sida/1/etext?om-boken"/>     
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Psykologiska gåtor. En berättelse af Claude Gerard, I–III</title>
      <publisher>Stockholm. Nya Dagligt Allehandas Aktie-Bolags tryckeri, <date>1868.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/14662244</idno>
@@ -37,8 +43,7 @@
      <idno type="libris">http://libris.kb.se/bib/14662247</idno>
    <!-- <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>De exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>   
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -56,6 +61,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -237,7 +243,7 @@
 <p>Ödet eller verkligheten är imellertid en större skapare, en mera vild fantast än någon annan och visar ofta, att det icke nödvändigt behöfves susande skogar, grottor och pittoreska dalar för att framställa gripande scener, eller rättare sagdt, under ytan af de flesta händelser ligger alltid en viss romantik, om man endast vill forska derefter, och <hi>den</hi>, som här inträffade, några dagar innan den unge magistern i Lund mottog underrättelsen om sin mors död, var en af dem, som för den förvånade betraktaren utbreder några af de många gömda vecken i den brokiga, konstigt hopvecklade duk, som vi kalla menniskosjälen.</p><pb n="31"/>
 <p>Det var den bråksamma tiden före jul, då invånarne i de skånska prestgårdarne, i synnerhet den tiden, lade all sin ära och nit uti att tillreda så ”möen mad” och så ”flottig mad”, att man dermed skulle kunnat förderfva alla magar i Småland.</p>
 <p>Klockan var tio på qvällen, det var ett gement väder, blåsten hven om knutarne och förde allt imellanåt en halmsudd ifrån taken eller en risqvist från det tomma storkboet, som på spetsen deraf trotsade stormen, snöflingor blandade sig med det nedströmmande regnet, och mörkret låg tungt och tjockt öfver nejden.</p>
-<p>I prestgårdens båda flyglar lyste, oaktadt den sena timmen, ännu ljus, och från den vestra hördes ofta skratt och prat genom det otäta fönstret, ty drängar och pigor tillsammans voro derinne sysselsatta att plocka gäss, uppmuntrande sig allt imellanåt med öl och ”feddamadar”<ref target="#SWE14662244_N1"/>.</p>
+<p>I prestgårdens båda flyglar lyste, oaktadt den sena timmen, ännu ljus, och från den vestra hördes ofta skratt och prat genom det otäta fönstret, ty drängar och pigor tillsammans voro derinne sysselsatta att plocka gäss, uppmuntrande sig allt imellanåt med öl och ”feddamadar”<ref target="#SWE14662244_N1"/><ref target="#SWE14662244_N1"/>.</p>
 <p>Genom springorna mellan den lilla snäfva lärftsgardinen för gafvelfönstret i den östra flygeln såg man äfven ljussken, ty här var prostens enskilda studerkammare, och det var ingenting ovanligt att finna honom uppe till långt på natten, isynnerhet en lördagsqväll.</p>
 <p>Den gamle prosten Jöns Grip satt här inne framför den föga trefliga brasan af bokved eller ”bränne”, som brann med en långsam och tynande eld i den breda <pb n="32"/> spiseln, hvars hela framsida var svärtad af röken, som hängde lik en prestkappa öfver den hvita kalkrappningen.</p>
 <p>En hög med torf låg nedanför för att underhålla elden i det kyliga och otrefliga rummet, som pryddes af stora dammiga bokhyllor, ett stort svart skrifbord, några klumpiga skinnklädda stolar, ett par stirrande porträtter af prostens förfäder med kalotter, biblar och ringkragar, ty slägten var gammal, och ett par af Skånes pastorat hade son efter far i flera generationer tillhört dem, alltsedan skåningarne voro danskar.</p>
@@ -4310,7 +4316,7 @@
 <p>— Nej, icke för närvarande, åtminstone inga, som han ansåg värda att ännu nämna.</p>
 <p>— Hm, det är illa. Se här, Wehler, vill ni vara god och genomläsa dessa papper? — fortfor han, räckande skrifvaren de handlingar han utvalt, på bordet.</p>
 <p>Wehler mottog dem och satte sig tyst i andra ändan af rummet. Han uppvek det första bladet och läste:</p>
-<p><hi>Vittnesmål i den Hawerfieldska processen, lemnadt af fru Sabina Emmelina Morris, f. d. dansös, nu egarinna af en korffabrik &#x2003;&#x2003;&#x2003;&#x2003;i Islington.</hi></p>
+<p><hi>Vittnesmål i den Hawerfieldska processen, lemnadt af fru Sabina Emmelina Morris, f. d. dansös, nu egarinna af en korffabrik     i Islington.</hi></p>
 <p>Jag har af advokaten mr Gibson blifvit uppmanad att lemna en skriftlig berättelse om hvad jag kan hafva mig bekant med afseende på min aflidne mans, begrafningsentreprenören mr John Morris’, gemenskap med familjen Hawerfield efter som han flera år vistats såsom kammartjenare hos aflidne lord Percy Hawerfield.</p>
 <p>Jag är säker, att hos mången ännu lefver hågkomsten af signora Annunciata Trampolini, hvilket namn jag i min första ungdom såsom dansös vid Drurylane-teatern antog, ty jag kunde naturligtvis icke bibehålla namnet Sabina Krump, såsom alltför tungt och trivialt.</p>
 <p>Mr Gibson har anbefalt mig att ”fatta mig kort”, det är också mitt naturliga sätt och min smak; jag hatar onödiga fraser och bisaker, som icke höra till ämnet, jag vill derför ingenting säga om min sylfidiska<pb n="110"/> ungdom, ”dess gungande behag, spänstiga språng och djerfva mimik”, som en viss tidning af mycket anseende på den tiden uttryckte sig om min person och min talent i en lång och smickrande teaterkritik, hvilken jag utklippt ur bladet, och som jag ännu förvarar bland andra minnen ifrån denna tid.</p>

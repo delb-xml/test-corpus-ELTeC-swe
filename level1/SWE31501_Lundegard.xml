@@ -1,7 +1,9 @@
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE31501"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE31501" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,23 +20,25 @@
     <measure unit="words">73527</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>La Mouche</title>
      <ref target="https://litteraturbanken.se/författare/LundegårdA/titlar/LaMouche/sida/-4/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>La Mouche. En roman från ett dödsläger.</title>
      <publisher>Stockholm. Z. Hæggströms förlagsexpedition. <date>1891.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/31501</idno>
      <!-- <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -52,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -441,7 +446,7 @@
 <pb n="51"/> bröstet häfde sig och sänkte sig oroligt, i takt med hennes korta, flämtande andedrag.</p>
 <p>»Jag har aldrig förr talat med någon om detta», sade hon. »Men till er — — —», hon gjorde ett ögonblicks uppehåll; derpå fortsatte hon sin berättelse, i små, af brutna satser, som om hon mödosamt plockat fram dem ur sitt minne, en efter en.</p>
 <p>»Jo, vi träffades. Två år derefter. Under tiden hade jag blifvit gift. Min man var en fransman. Han var ytlig, som de äro alla.</p>
-<p>Partiet uppgjordes så, som äktenskap alltid uppgöras i Frankrike. Man gifter sig utan att känna hvarandra. Vi passade samman som eld och vatten. Han hade lefvat det lif, som unga män bruka lefva i Paris; han visste icke af något pjunk i sina erotiska förhållanden. — Jag var 18 år — nästan ett barn ännu. Jag hade alltid längtat efter värme och innerlighet — han var endast brutal. Om jag under andra omständigheter kunnat lära mig att fördraga honom, vet jag icke. Kanske var det mitt tyska blod, som reagerade så våldsamt mot att blandas med hans franska — — Efter ett års äktenskap afskydde&#x00AD; jag honom — han märkte det väl, ty han vände sig ifrån mig.</p>
+<p>Partiet uppgjordes så, som äktenskap alltid uppgöras i Frankrike. Man gifter sig utan att känna hvarandra. Vi passade samman som eld och vatten. Han hade lefvat det lif, som unga män bruka lefva i Paris; han visste icke af något pjunk i sina erotiska förhållanden. — Jag var 18 år — nästan ett barn ännu. Jag hade alltid längtat efter värme och innerlighet — han var endast brutal. Om jag under andra omständigheter kunnat lära mig att fördraga honom, vet jag icke. Kanske var det mitt tyska blod, som reagerade så våldsamt mot att blandas med hans franska — — Efter ett års äktenskap afskydde­ jag honom — han märkte det väl, ty han vände sig ifrån mig.</p>
 <p>Från den tiden var vårt äktenskap en kamp. Han skydde intet medel att göra mitt lif outhärdligt. Hans egenkärlek hade väl blifvit sårad, kan jag tro, och detta visade sig i symptomer,
 <pb n="52"/> som liknade svartsjukans. Han sökte isolera mig från allt umgänge med andra män, på samma gång som han sjelf vårdslösade mig på alla upptänkliga sätt.</p>
 <p>Han hade en mängd flyktiga förbindelser af alla slag och han sökte aldrig dölja att så var. Tvärt om! Han framhöll det för mig vid alla upptänkliga tillfällen, som om han kunnat såra och smärta mig dermed!</p>
@@ -792,7 +797,7 @@
 <p>Men som hon nu satt der i lugn och ro, kunde hon icke motstå frestelsen. Sakta, liksom dröjande, häktade hon upp sin klädning öfver bröstet och drog fram ett litet elegant sidenomslag, som gömde ett bref ... och för hundrade gången fördjupade hon sig i dess innehåll:</p> 
 <p>Allersomälskeligaste, ljufveliga Mouche! Eller skall jag kanske bortse från ditt signet och uppkalla dig efter parfymen i dina bref? I så fall måste jag benämna dig min allrasomsirligaste lilla kissamysk. I förgår fick jag din sändning; les pattes de mouche har jag ständigt i hufvudet, kanske också i hjertat. Tag mitt varmaste tack för hvarje bevis på din tillgifvenhet<pb n="115"/>. Öfversättningen af dikterna är förträfflig, och jag åberopar mig på hvad jag sade dig före din afresa. Också gläder jag mig till att snart få återse dig och trycka en kyss på din älskeliga insekt-fysionomi. Ack, dessa ord skulle visserligen få en mindre platonisk betydelse, om jag blott vore en menniska än! Men tyvärr — jag är nu blott en ande; för dig är detta kanske just alldeles lagom, men mig konvenerar det hjertligt illa.</p>
 <p>Den franska upplagan af mina arbeten är nyss utkommen och gör furore. De af mina dikter som, i likhet med <hi>Ny vår</hi>, ännu icke blifvit offentliggjorda, skola emellertid först komma om tre eller fyra månader, i ett af den franska editionens sista band. Jag har icke spilt tiden, som du ser! Ja, jag gläder mig till att återse dig, du mitt hjertas älskeliga Mouche! Du allrasom mest förtjusande lilla kissamysk, tillika ljufvelig och blid som en liten angorakissa — det slags missar jag håller mest af! Länge föredrog jag tigerkattor, men de äro farliga, och de kyssar, de ibland tryckte på mitt ansigte, voro allt annat än behagliga. Med mig står det fortfarande mycket illa till; ingenting annat än vedervärdigheter, anfall af de gräsligaste smärtor, raseri öfver mitt tillstånd och dess hopplöshet! En död man, som törstar efter lifvets mest glödande njutningar! Det är förfärligt! Lef väl! Måtte baden stärka dig och
-<pb n="116"/> göra dig godt. De hjertligaste helsningar från din vän &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003; <hi>Heinrich Heine.</hi></p> 
+<pb n="116"/> göra dig godt. De hjertligaste helsningar från din vän           <hi>Heinrich Heine.</hi></p> 
 <p>Under den första tiden efter sin ankomst till Wildbad hade hon ännu kunnat arbeta. Hon hade öfversatt en del af hans dikter, som hon sändt honom. Till svar hade hon mottagit detta bref. Så hade hon skickat honom per post en lång, darrande hjertesuck. Hon hade sagt honom, hur feberaktigt hon längtade efter hvarje den minsta underrättelse, hon hade bedt honom om att få läsa hans <hi>Memoarer</hi>, det stora verket, som hon så ofta sett honom syssla med; det föreföll henne som skulle hon derigenom få ett slags ersättning för det personliga umgänget. — —Ja, hon visste nu icke allt hvad hon skrifvit i ögonblickets upphetsning, hon visste blott att hon tiggt honom om ett ord att stilla sin svidande längtan med — — att hon sedan dag efter dag väntat på ett lifstecken, men att intet kommit. —</p>
 <p>Hon kunde icke sitta stilla; oron dref henne ut. Hon gick och gick, jagad af en inneboende, obestämd beklämning, som hon icke kunde döfva. Hon gick och gick, som om den utpinade kroppen på detta sätt kunnat fly undan själsslitningarne. Men medan hon ilade längsmed vägar och stigar, satt tanken vid sjukbädden der borta vid Avenue Matignon — hon kände smekningen af ett par genomskinliga händer och hörde ord, som snärjde hennes själ — — och till sist slog
 <pb n="117"/> längtan sin klo i hela hennes varelse; den drog och drog; det var som tjenade det ingenting till att fly, och hon sjönk ned på en bänk eller på en sten, der hon kunde bli sittande timmar å rad, utan att veta, hur tiden gick.</p>
@@ -1382,7 +1387,7 @@
 <p>Jag vill icke att du kommer i morgon (Onsdag), ty jag har en migrän i faggorna, men om du kan egna mig några ögonblick om Fredag skulle detta hålla mig skadeslös för den långa tid, jag icke har fått se dig. Från och med Fredag är jag hvarje dag redo att mottaga dig, och ju oftare du kommer, dess lyckligare blir jag. Min kära, lilla, förtjusande Mouche, kom, surra med dina små fötter omkring i mitt rum.
 <pb n="211"/> Jag känner en sång af Mendelssohn, med refrängen: »kom snart». Den melodien har jag ständigt i hufvudet: »kom snart«.</p>
 <p>Jag kysser dina båda kära små fötter; icke på en gång utan den ena först och den andra se’n.</p>
-<p>Lef väl. &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;<hi>H. H.»</hi></p>
+<p>Lef väl.          <hi>H. H.»</hi></p>
 <p>Alltid, alltid fans det i dessa små bref samma underton af ömhet, och den vädjade aldrig förgäfves till hennes hjerta. Hvad hjelpte det, hon föresatte sig att bli borta. Hur kunde hon stå emot, då han skref:</p>
 <p>»Jag vill så gerna återse dig, du sista blomma i min mörka höst, du gränslöst älskade.»</p>
 <p>Nej, hon kunde icke höra det tonfallet i hans röst utan att lyda; och hon skyndade till hans sjukbädd. Och för hvarje gång kände hon, hur han ånyo eröfrade hennes hjerta, tum för tum, från det kalla förståndet, som bjöd henne att fly honom.</p>

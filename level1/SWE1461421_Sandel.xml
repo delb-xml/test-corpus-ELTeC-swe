@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1461421"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1461421" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">85940</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
  
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Virveln</title>
      <ref target="https://litteraturbanken.se/författare/SandelM/titlar/Virveln/sida/1/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Virveln.</title>
      <publisher>Tidens förlag, Stockholm <date>1913.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1461421</idno>
      <!-- <ref target="https://libris.kb.se/bib/11729834">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek.</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -1127,7 +1133,7 @@
 <l><hi>min makt kan ingen vinna.</hi></l>
 <l><hi>Kring mina flätor brinna</hi></l>
 <l><hi>i diademets gyllne rund rubiners purpurljus.</hi></l><pb n="204"/><l><hi>Träd in uti min sköna sal! – »Ett torftigt bo», du ropar.</hi></l>
-<l><hi>Ack, villad är din blick och skum. – Väl mött, i Lycko&#x00AD;</hi></l>
+<l><hi>Ack, villad är din blick och skum. – Väl mött, i Lycko­</hi></l>
 <l><hi>land!</hi></l>
 <l><hi>Här ler min vän, här lyser klart hans djupa blick av lycka.</hi></l>
 <l><hi>Säg, skulle jag ej tycka</hi></l>
@@ -1611,7 +1617,7 @@
 <p>»Alla pojkar tycker att Lur  – »</p>
 <p>»Tyst, Gunnar! Ingen anständig människa talar om skit vid bordet», avbröt Erik kärft.</p> 
 <milestone unit="*"/><pb n="283"/>
-<p>Den hårdnackade striden, förd av arbetarna med en nobless, som väckte den civiliserade världens beundran, slöt med seger för kapitalismens målsmän – ytligt sett.<ref target="#SWE1461421_N1"/></p>
+<p>Den hårdnackade striden, förd av arbetarna med en nobless, som väckte den civiliserade världens beundran, slöt med seger för kapitalismens målsmän – ytligt sett.<ref target="#SWE1461421_N1"/><ref target="#SWE1461421_N1"/></p>
 <p>Nederlagets dag, oförglömmelig, ristad i själarna med eld.</p>
 <p>Birgit Sänke stod utanför en cigarraffär och läste om stridens avblåsning. Hon var dödsvit, och en spasmodisk darrning kom hennes huvud att runka. Hon stod i det främsta ledet av en tät och mulen klunga män. Förbannande eller hopbitet tysta – alla hade de vid munnen en fåra, som icke funnits där före stridens utbrott. Ah, detta spår av slagfältets marter, av uppgivelsens kval, av nesan, ångesten! Tiden och växlande intryck har utplånat det hos mängden, men eldsjälarna, de oförsonliga, rättsträngtande, de skola bära det till sin död, skarpt framträdande, då minnet om kampen sliter i hjärtats fibrer ...</p>
 <pb n="284"/>
@@ -1881,7 +1887,7 @@
 <p>Vad är det han ser! Drömmer han än!</p>
 <p>En enda blick av omätlig häpnad – så sökte hans ögon golvet, han krängde på överkroppen, ansiktet blev blodrött.</p><pb n="329"/>
 <p>Knut stod vid bordet. Hans händer knötos. Goda föresatser om ett behärskat uppträdande inför den forna kamraten hade fattats av både Arvid och honom själv, men vid åsynen av förrädaren brusto de som såpbubblor för en orkan. Knuts blickar skuro som blåblanka knivar i Lurs ansikte, isande förakt spelade om hans mun. Arvid hejdade sig med nöd från att spotta; den lilla tösen, som klängt upp på hans knä och satt lekande med hans urkedja, uppfattade dock avsikten och såg på honom med undran. Tystnaden i rummet var sargande, hemsk.</p>
-<p>Ett stön ... Konvulsiviskt vridande händerna stod Lurs hustru stödd mot kakelugnen, hennes magra kinder ömsom blåstes upp och sjönko in under hennes korta, häftiga andetag, blickarna irrade ångestfullt, vädjande, besvärjande, mellan maken och de främmande. Barnen trängde sig närmare varandra, ett av dem sprang fram till modern och hakade sig fast i hennes kjol. Men tösen på Arvids knä satt trygg och lekte. Urkedjan klingade sprött mellan hennes fingrar, och så: »Snälla farbror, får jag en slant till ett fralla!»<ref target="#SWE1461421_N2"/></p>
+<p>Ett stön ... Konvulsiviskt vridande händerna stod Lurs hustru stödd mot kakelugnen, hennes magra kinder ömsom blåstes upp och sjönko in under hennes korta, häftiga andetag, blickarna irrade ångestfullt, vädjande, besvärjande, mellan maken och de främmande. Barnen trängde sig närmare varandra, ett av dem sprang fram till modern och hakade sig fast i hennes kjol. Men tösen på Arvids knä satt trygg och lekte. Urkedjan klingade sprött mellan hennes fingrar, och så: »Snälla farbror, får jag en slant till ett fralla!»<ref target="#SWE1461421_N2"/><ref target="#SWE1461421_N2"/></p>
 <p>Den lilla rösten, barnarösten, bedjande, förtroendefull ...</p>
 <p>Knut vände sig om, han mötte Arvids blick, och nu <pb n="330"/> lyste endast manlig godhet i bådas drag. Han tog fram sin plånbok och sade vänd till Lur:</p>
 <p>»Kamraterna har fått veta, att Lur har det bekymmersamt, och de vill gärna hjälpa. De ha samlat in lite slantar på en lista, och det är för att lämna dem, som Arvid och jag har kommit hit.»</p>

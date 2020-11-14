@@ -1,7 +1,9 @@
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1859574"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1859574" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,23 +20,25 @@
     <measure unit="words">37729</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Arabella</title>
      <ref target="https://litteraturbanken.se/författare/HebbeW/titlar/Arabella/sida/1/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Arabella. Novell af Liana.</title>
      <publisher>L. J. Hjerta, Stockholm <date>1841.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/1859574</idno>
      <!--   <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -52,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -63,7 +68,7 @@
 <pb n="1"/>
 <p>NYTT</p> 
 <p><hi>LÄSE=BIBLIOTHEK.</hi></p> 
-<p>______></p> 
+<p>______&gt;</p> 
 <p><hi>ARABELLA.</hi></p> 
 <p>____</p> 
 <p>NOVELL</p> 
@@ -324,7 +329,7 @@
 <l>«Fuyez Telemaque, fuyez!</l>
 <l>On ne peut vaincre l’amour</l>
 <l>qu’en fuyant. Contre un tel</l>
-<l>ennemi le vrai courage con&#x00AD;</l>
+<l>ennemi le vrai courage con­</l>
 <l>siste à craindre et à fuir.»</l>
 <p><hi>De la Motte Fenelon.</hi></p>  
 <p>Ett halft år hade förflutit, sedan den omtalta händelsen timat i baron Sonnensterns hus, då denne en afton vandrade tankfull gatan framåt mot grefve Thüringens boning. Han hade under hela denna tid ej en enda gång sett Arabella. Han hade med afsigt undvikit hvarje tillfälle dertill. Nu gick han att taga afsked af henne, emedan han ämnade lemna staden och återvända till sin fädernebygd, ty han var en främling i det landet. Det var vid slutet af Maj, just i skymningen, som han nalkades målet för sin vandring. Hans hjerta klappade af många och stridiga känslor. «Var hon väl sig lik, den sköna, lifliga, hulda varelsen. Månne han skulle få se henne, tala med henne? Det måste han; det var nödvändigt: han måste se henne och taga afsked af henne; förr kunde han icke resa.» Till sin glädje erfor han redan i tamburen af tvänne andra gästers samtal, att grefve Thüringen ej var tillstädes. Han hade aldrig<pb n="62"/> tyckt om denne man, och det gladde honom, att vid ett tillfälle som detta vara befriad från hans åsyn. Han märkte likväl snart värden från Fogelsången, hvilken nu, såsom ofta annars, af gammal vana, under grefvens bortovaro, åtagit sig värdskapet. Inkommen blef baronen förundrad och ledsen, att finna rummen uppfylda af gäster under det hans öga förgäfves sökte efter det enda föremål, som intresserade honom, och för hvars skull han gjorde detta besök. Han lät emedlertid presentera sig för den provisoriska värden, hvars hy och uttryck litet skiftade, vid åsynen af den oväntade gästen. Denne hade nära uppgifvit allt hopp, att se sin önskan uppfylld och ändamålet med sitt besök vunnet. Han tröstade sig så godt han kunde, och tog sin plats vid ett bord der några blomsterkrukor stodo, och inneslöt sitt svikna hopp helt tyst i sitt klappande bröst. Snart föll dock hans blick inåt närgränsande rum, der han upptäckte vid det matta lampskenet det föremål hans hjerta sökte. Skyndsamt steg han upp, och ilade med tysta steg öfver de brokiga mattorne. Han hade gerna kunnat dröja. Orörlig, som en bild, satt Arabella på soffan och tycktes icke hafva sinne för något, utom det arbete hon höll i sin hand, och hvarpå hon flitigt sydde: så flitigt, så träget, att hon icke märkte eller icke låtsade märka den ankommande. Ändteligen såg<pb n="63"/> hon upp, men då blef det värre. I det svarta ögat låg på en gång så mycken stolthet och så mycket missnöje, att baronen ovilkorligen tog ett steg tillbaka; men han var icke förr igenkänd, än detta uttryck ögonblickligen förvandlades i det mest vänliga och milda småleende, hvari tusende rosor på kind och läppar speglade sig. Hon steg upp och räckte den inkomne förtroligt sin hand, vinkade honom att taga plats bredvid i soffan. Han gjorde så, och ett ögonblick betraktade de båda stillatigande hvarandra. Slutligen sade baronen med något osäker röst: «Förlåter ni Arab .. grefvinna! att jag så här, utan att anmäla mig, vågar inträda till er, och utan er tillåtelse, men jag är straffad nog: er blick sade mig nyss, att jag varit för djerf.»</p>
@@ -457,10 +462,10 @@
 <div type="chapter">
 <head>ELFTE KAPITLET.</head> 
 <l>«Do, re, mi, fa, sol, la si.» –</l>
-<l>«Svart, fru doctorinna?» for hon för&#x00AD;</l>
+<l>«Svart, fru doctorinna?» for hon för­</l>
 <l>«vånad tillbaka «svart? – svart är</l>
 <l>«resefärg och brudfärg och galafärg</l>
-<l>«och i Rom furstebarnsfärg, och i Spa&#x00AD;</l>
+<l>«och i Rom furstebarnsfärg, och i Spa­</l>
 <l>«nien är det en Rikslag, att hoffolket,</l>
 <l>«likasom i Marocco Judarne, skola gå</l>
 <l>«klädda i svart.»</l>
@@ -714,13 +719,13 @@
 <l>«Fly to the desert, fly with me,</l>
 <l>«Our Arab tents are rude for thee,</l>
 <l>«But oh! the choice what heart can doubt</l>
-<l>«Of tents with love, or thrones without &amp;c <ref target="#SWE1859574_N1"/>.</l> 
+<l>«Of tents with love, or thrones without &amp;c <ref target="#SWE1859574_N1"/><ref target="#SWE1859574_N1"/>.</l> 
 <p>En afton åtföljde Arabella sin värdinna, som länge och enträget bedt henne derom, på operan. Der återsåg hon, efter tvenne års skilsmessa, den länge saknade. Återigen flydde hon honom, som hon saknat och begråtit; ty hon ville icke ånyo upplifva en känsla, som hon trodde skulle göra hans lifs olycka. Hon tog under mörkret och förvirringen sin tillflykt i ett okändt hus, der sedermera den svenska ädlingens ihärdiga besök väckte den gamla trotjenarinnans misstankar. Hon spionerade, hon vaktade, och återvände ej med en grön qvist, utan sänkte i dess ställe en förrädisk pil i sin Antilops rena, obeväpnade och fördomsfria hjerta. Hon försökte väl sedan i sin ångest, att draga den ut; men den hade hullingar, skarpa och breda, och trängde allt djupare och djupare. Ha! jag kände det varma blodet på mitt eget bröst. Jag fördömde min sladdriga tunga och min svaghet. Jag hatade den <pb n="151"/> flyktige som döden. Jag såg henne småningom förtäras, och till slut såg jag de bleka kinderna, den slocknande blicken med ett slags vansinnigt nöje. Dö, tänkte jag, är dock det bästa af hela uppträdet; det är sista akten af det långa tröttsamma sorgespelet. Döden sträcker skylande sin svalkande, hvita vinge öfver bröstet, sedan det fina strängaspelet derinne brustit. Godt! jag bad honom vara välkommen, den bleke engeln! – Nu sjöng min älskling icke mer, blott stundom, med knappt hörbar stämma hviskade hon:</p>
 <l>«But if, for me, thou dost forsake</l>
 <l>«Some other maid, and rudely break</l>
 <l>«Her worshipp’d image from its base</l>
 <l>«To give to me the ruin’d place; –</l>
-<l>«Then, fare thee well!» <ref target="#SWE1859574_N2"/>.</l>
+<l>«Then, fare thee well!» <ref target="#SWE1859574_N2"/><ref target="#SWE1859574_N2"/>.</l>
 <p>Och när, under de långa, oroliga, genomvakade nätter, hon någon gång inslumrade, ropade hon beständigt blott – »</p>
 <p>«Edvard!» hviskade nu Arabella.</p>
 <p>«Just så!» sade den gamla, «ni hör nu sjelf, det har blifvit en vana; men nu må hon fortsätta sjelf!»</p>

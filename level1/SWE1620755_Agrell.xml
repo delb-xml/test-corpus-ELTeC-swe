@@ -1,7 +1,9 @@
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1620755"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1620755" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,23 +20,25 @@
     <measure unit="words">94900</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>I Stockholm</title>
      <ref target="https://litteraturbanken.se/författare/AgrellA/titlar/IStockholm/sida/III/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>I Stockholm. Också en resebeskrifning.</title>
      <publisher>Hugo Gebers förlag, Stockholm <date>1892.</date></publisher>
      <idno type="libris">https://libris.kb.se/bib/1620755</idno>
      <!--  <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -52,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -3221,7 +3226,7 @@
 <p>Emellertid så var det högst märkvärdigt, intressangt och hämskt att höra Ödman sjunga »var hääälsad sköööna morgonstund», utan både hufvud, månsken och ben. Men jag föredrar honom med månsken och ben – hufvudet saknade jag mindre.</p>
 <p>Nej, Lovisa, sitt inte och lek kurra gömma med dig själf längre!</p>
 <p>Det går inte att skrifva som om ingenting hade händt. Jag är så ledsen så jag kunde gråta blod om det hjälpte! Frun i Federasjon hade rätt!</p>
-<p>De gamla herrarna <hi>är</hi> de värsta, och min är den värsta af allesammans. <hi>Hvem</hi> kunde tro något sådant! Alltsammans kommer sig af den där ohyggliga varieten, det är jag <hi>säker</hi> på. Han har alldrig varit sig lik se’n<pb n="230"/> dess. Jag har länge misstänkt, att inte allt var som sig borde, men först när jag tre gånger sökt honom förgäfves på ölkällaren och kyparen på biljarden sagt, att herr Petterkvist alldrig spelade biljard numera, började jag ana oråd, så mycket mer som han litet emellan talade om att skaffa sig peruk »för kylans skull», (nu i sommarvärmen!) och luktade parfym. &#x005B;<hi>Gustaf</hi> lukta parfym!) Men visshet fick jag inte förr än jag märkte, att han till på köpet narrades för mig. Då började jag att spionera på honom.</p>
+<p>De gamla herrarna <hi>är</hi> de värsta, och min är den värsta af allesammans. <hi>Hvem</hi> kunde tro något sådant! Alltsammans kommer sig af den där ohyggliga varieten, det är jag <hi>säker</hi> på. Han har alldrig varit sig lik se’n<pb n="230"/> dess. Jag har länge misstänkt, att inte allt var som sig borde, men först när jag tre gånger sökt honom förgäfves på ölkällaren och kyparen på biljarden sagt, att herr Petterkvist alldrig spelade biljard numera, började jag ana oråd, så mycket mer som han litet emellan talade om att skaffa sig peruk »för kylans skull», (nu i sommarvärmen!) och luktade parfym. [<hi>Gustaf</hi> lukta parfym!) Men visshet fick jag inte förr än jag märkte, att han till på köpet narrades för mig. Då började jag att spionera på honom.</p>
 <p>Nog vet jag, alltid, att det är mycket <hi>fult</hi> af en hustru att spionera på sin mann, men jag skulle ändå råda en och annan att göra det – kanske skulle hon, som jag, få se <hi>vackra</hi> saker! Jag har gråtit i flera dagar, så min näsa är alldeles blank, men Gustaf ser inte ens <hi>det.</hi></p>
 <p>I min förtviflan anförtrodde jag mig åt Villy, när han kom hit i morse.</p>
 <p>»Tant Lova inbillar sig», sa han trankilt.</p>

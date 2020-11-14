@@ -1,6 +1,9 @@
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8395466"
- xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE8395466" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,23 +20,25 @@
     <measure unit="words">64036</measure>
    </extent>
    <publicationStmt>
-    <p>Added to ELTeC <date>13 Nov 2020</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<!--Added to ELTeC 13 Nov 2020--></publicationStmt>
    
-   <sourceDesc>   
-    <bibl type="digitalSource">
+   <sourceDesc><bibl type="digitalSource">
      <title>Fru Catharina Boije och hennes döttrar</title>
      <ref target="https://litteraturbanken.se/författare/RunebergFC/titlar/FruCatharinaBoije/sida/-2/etext?om-boken"/>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <title>Fru Catharina Boije och hennes döttrar. En berättelse från stora ofredens tid af -a -g.</title>
      <publisher>Finska Litteratur-sällskapets tryckeri, Helsingfors <date>1858.</date></publisher>
      <idno type="libris">http://libris.kb.se/bib/8395466</idno>
      <ref target="https://www.doria.fi/handle/10024/100549">PDF version</ref>
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
-     </bibl>
-   </sourceDesc>
+     </bibl></sourceDesc>
    
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -51,6 +56,7 @@
    </textDesc>
     </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-11-13">LB updated</change>
    <!-- revision information -->
   </revisionDesc>
@@ -79,7 +85,7 @@
 <div type="chapter">
 <pb n="1"/>        
 <p>En länge närd önskan hade gått i fullbordan: jag hade sett den brusande kaskaden vid Kyro, och Nokias dystra fors, denna sorgdrägt af svart med hvita fållar midt i naturens glada sommarskrud. Kangasalas, Imolas och Hattelmalas åsar hade för mig utvecklat sina sköna taflor. Hvilken Finnes hjerta klappar icke med gladare slag vid blotta tanken på dessa perlor i vårt lands vackra drägt? Och nu, efter en sommar tillbragt i denna nejd, så rik på naturskönheter, af hvilka få äro ens till namnet allmännare kända, huru skulle icke jag nu vara enthusiastisk för all denna fägring.</p>
-<p>Jag hade tillbragt en dag i Tammerfors. Sedan den lilla stadens fabriker och anläggningar blifvit besedda, inbjöd man mig att vara med om en färd till Hattanpää egendom ej långt från staden. Jag antog gerna anbudet, ty jag hade hört berömmas den vackra parken med det sköna läget vid Pyhäjärvi. Vi anlände till målet för vårt besök. Det gammalmodiga huset med de små fönsterrutorna och det höga, brutna taket förekom mig att äga ett visst gammaldags aristokratiskt tycke, och de med vacker vördnad för<pb n="2"/> forntiden bibehållna besynnerliga siraterna i trädgården intresserade mig. <ref target="#SWE8395466_N1"/> En promenad genom den vidsträckta, längs sjöstranden sig sträckande parken var tillräckligt lång, för att en inbjudning till hvila uppe i huset skulle förefalla välkommen, ehuru aftonen hotade att bli något lång för mig som fremmande och okänd, då ställets ägarinna gästfritt önskade att qvarhålla oss öfver soupén. Mitt sällskap, som ofta haft tillfälle att besöka Hattanpää, stannade i förmaket vid ett bord, hvarpå stod en korg delikata jordgubbar, men jag, åtföljd af ett fruntimmer, gammal bekant till mig och nu bosatt här, begaf mig för att bese de öfriga rummen och bortprata en stund på tu man hand med henne.</p>
+<p>Jag hade tillbragt en dag i Tammerfors. Sedan den lilla stadens fabriker och anläggningar blifvit besedda, inbjöd man mig att vara med om en färd till Hattanpää egendom ej långt från staden. Jag antog gerna anbudet, ty jag hade hört berömmas den vackra parken med det sköna läget vid Pyhäjärvi. Vi anlände till målet för vårt besök. Det gammalmodiga huset med de små fönsterrutorna och det höga, brutna taket förekom mig att äga ett visst gammaldags aristokratiskt tycke, och de med vacker vördnad för<pb n="2"/> forntiden bibehållna besynnerliga siraterna i trädgården intresserade mig. <ref target="#SWE8395466_N1"/><ref target="#SWE8395466_N1"/> En promenad genom den vidsträckta, längs sjöstranden sig sträckande parken var tillräckligt lång, för att en inbjudning till hvila uppe i huset skulle förefalla välkommen, ehuru aftonen hotade att bli något lång för mig som fremmande och okänd, då ställets ägarinna gästfritt önskade att qvarhålla oss öfver soupén. Mitt sällskap, som ofta haft tillfälle att besöka Hattanpää, stannade i förmaket vid ett bord, hvarpå stod en korg delikata jordgubbar, men jag, åtföljd af ett fruntimmer, gammal bekant till mig och nu bosatt här, begaf mig för att bese de öfriga rummen och bortprata en stund på tu man hand med henne.</p>
 <p>Min uppmärksamhet fästades af ett dörrstycke, föreställande en ung flicka med sköld och hjelm, öfver hvilken sväfvar en stor spindel, hängande på en tråd. På min förfrågan svarade mig min följeslagerska, att man hade en sägen om anledningen till denna tafla, hvilken alltid fäst hennes intresse; och med hemlig rysning bebodde hon det rum, hvartill denna dörr ledde, och der den unga Cecilia Boije, taflans original, fordom bott, hvarföre detta rum äfven hade något särdeles lockande för henne.</p>
 <p>Jag bad henne förtälja mig denna sägen. „Hm,“ svarade hon leende, „det är för vidlyftigt. Jag har <pb n="3"/> så intresserat mig för denna tilldragelse, att jag gjort mig den mödan att samla och ordna det ringa, jag derom kunnat få veta, och jag fruktar att ej kunna med få ord berätta dig den, just emedan jag så mycket sysselsatt mig dermed.“</p>
 <p>„Ju vidlyftigare, ju bättre, svarade jag. Qvällen blir oss nog lång, om vi ingen annan sysselsättning ha, än att sitta och prata ingenting. Låt oss sätta oss vid det öppna fönstret här, just i denna kammare, och berätta mig din historie, det blir trefligt.“</p>
