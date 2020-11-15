@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE11729834" xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE11729834" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -907,7 +904,7 @@
 <p>Ivar dröjde med svaret. Ett egendomligt leende spelade kring hans läppar medan han med ett nästan omärkligt skelande såg på Edith, som hade sin uppmärksamhet fäst vid gåvan. Men när hon så fångade hans blick, bytte den genast uttryck, blev öppen och dristig.</p>
 <p>– En och fyra, svarade han lugnt.</p>
 <p>Genast orden gått över hans läppar, var det som om han ryggat inför en fara, och det var med fällda ögonlock han avvaktade vad som skulle komma. Men vid Ediths svar samlade han sig i hast till ett uttryck av oförställt hån.</p>
-<p>– En och fyra<ref target="#SWE11729834_N1"/><ref target="#SWE11729834_N1"/>, upprepade hon förbluffad och synbarligen utan begrepp om ordens verkliga betydelse. En och fyra! Försök inte. Jag låter inte narra mig så lätt.</p>
+<p>– En och fyra<ref target="#SWE11729834_N1"/>, upprepade hon förbluffad och synbarligen utan begrepp om ordens verkliga betydelse. En och fyra! Försök inte. Jag låter inte narra mig så lätt.</p>
 <p>– Liten oskuld!</p>
 <p>Hans ton sårade Edith, han förekom dock varje ogillande utlåtelse, genom att hjärtligt säga, i det han gav hennes arm en smeksam tryckning: Bry dig nu inte om vad den kostar. Ingenting är gott nog åt dig, tycker jag. Jag hoppades också att du skulle bli glad ... Hans röst <pb n="155"/> hade fått en anstrykning av bitterhet och med utmärkt maskering spelade han nu förorättad. Och i detamma låg vägen klar för den unga kvinnan. På det älskligaste sätt sökte hon gottgöra sitt förmodade fel och det var till sin stora glädje, hon fann Ivar mycket villig att försonas.</p>
 <p>Så snart kaffet var drucket, beredde de sig till avfärd. Men det skulle bli ännu ett uppehåll. Medan Edith rullade samman täcket för Ivar att bära, framkastade han litet vårdslöst: </p>
@@ -1823,7 +1820,7 @@
 <p>– Det har pappa sagt så länge.</p>
 <p>– Om söndag, det lovar jag dig. Far dök beslutsamt ned i tidningsspalterna för att komma undan sin flickunges bedjande ögon.</p>
 <p>Emellertid gick det skralt för honom att få sammanhang i det han läste. Han måste oupphörligt se från raderna till det blonda lockhuvudet, som var böjt över bibliskan. Stjärnblomster, tänkte han, stjärnblomster ... Och för sin inre blick såg han den lilla stuga, i vilken han under en kort frist från det uppslitande brödjäktet fått framleva några ljuvliga sommarveckor, såg rabatten ... Så barnsliga han och Ruth då varit! Han måste le. Storstadsbarn, som de båda voro, hade de inte förstått sig på sådd och plantering stort mer än en ångvält. Men så hade Ruth fått litet frö, och de strödde ut det i jorden, så gott de förstodo, vattnade och, du store, vad de varit nyfikna, hur det skulle gå med deras arbete. Deras första tanke på morgonen var att se efter, om något grönt syntes. Och<pb n="313"/> äntligen stack där upp en fin grön brodd, och sen ... och sen ... Ja, en vacker dag fanns där en vajande luftig här av vita stjärnor.</p>
-<p>Månader efter i ett mörkt kyffe med utsikt åt en svartgrå brandmur hade Vera första gången sett ljuset. Och när han såg den lilla vita varelsen vid sin hustrus bröst, gav han henne i sitt hjärta namn efter sommarens väna blomsterminne – stjärnblommorna.<ref target="#SWE11729834_N2"/><ref target="#SWE11729834_N2"/></p>
+<p>Månader efter i ett mörkt kyffe med utsikt åt en svartgrå brandmur hade Vera första gången sett ljuset. Och när han såg den lilla vita varelsen vid sin hustrus bröst, gav han henne i sitt hjärta namn efter sommarens väna blomsterminne – stjärnblommorna.<ref target="#SWE11729834_N2"/></p>
 <p>Ja, det var då, det! fortfor far i sin tankegång och suckade vid minnet av rabatten. Nu var han ju bliven en mer insiktsfull blomsterodlare, men ett par meter jord – ah, det var att önska det oupphinneliga.</p>
 <p>– Vad funderar pappa på? Frågade Vera plötsligt. Pappa har tittat på mig en lång stund.</p>
 <p>– Hm ... Detta var fars enda svar och så gömde han sig leende bakom tidningen.</p>

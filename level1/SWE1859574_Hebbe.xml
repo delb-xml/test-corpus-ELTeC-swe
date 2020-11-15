@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1859574" xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1859574" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -719,13 +716,13 @@
 <l>«Fly to the desert, fly with me,</l>
 <l>«Our Arab tents are rude for thee,</l>
 <l>«But oh! the choice what heart can doubt</l>
-<l>«Of tents with love, or thrones without &amp;c <ref target="#SWE1859574_N1"/><ref target="#SWE1859574_N1"/>.</l> 
+<l>«Of tents with love, or thrones without &amp;c <ref target="#SWE1859574_N1"/>.</l> 
 <p>En afton åtföljde Arabella sin värdinna, som länge och enträget bedt henne derom, på operan. Der återsåg hon, efter tvenne års skilsmessa, den länge saknade. Återigen flydde hon honom, som hon saknat och begråtit; ty hon ville icke ånyo upplifva en känsla, som hon trodde skulle göra hans lifs olycka. Hon tog under mörkret och förvirringen sin tillflykt i ett okändt hus, der sedermera den svenska ädlingens ihärdiga besök väckte den gamla trotjenarinnans misstankar. Hon spionerade, hon vaktade, och återvände ej med en grön qvist, utan sänkte i dess ställe en förrädisk pil i sin Antilops rena, obeväpnade och fördomsfria hjerta. Hon försökte väl sedan i sin ångest, att draga den ut; men den hade hullingar, skarpa och breda, och trängde allt djupare och djupare. Ha! jag kände det varma blodet på mitt eget bröst. Jag fördömde min sladdriga tunga och min svaghet. Jag hatade den <pb n="151"/> flyktige som döden. Jag såg henne småningom förtäras, och till slut såg jag de bleka kinderna, den slocknande blicken med ett slags vansinnigt nöje. Dö, tänkte jag, är dock det bästa af hela uppträdet; det är sista akten af det långa tröttsamma sorgespelet. Döden sträcker skylande sin svalkande, hvita vinge öfver bröstet, sedan det fina strängaspelet derinne brustit. Godt! jag bad honom vara välkommen, den bleke engeln! – Nu sjöng min älskling icke mer, blott stundom, med knappt hörbar stämma hviskade hon:</p>
 <l>«But if, for me, thou dost forsake</l>
 <l>«Some other maid, and rudely break</l>
 <l>«Her worshipp’d image from its base</l>
 <l>«To give to me the ruin’d place; –</l>
-<l>«Then, fare thee well!» <ref target="#SWE1859574_N2"/><ref target="#SWE1859574_N2"/>.</l>
+<l>«Then, fare thee well!» <ref target="#SWE1859574_N2"/>.</l>
 <p>Och när, under de långa, oroliga, genomvakade nätter, hon någon gång inslumrade, ropade hon beständigt blott – »</p>
 <p>«Edvard!» hviskade nu Arabella.</p>
 <p>«Just så!» sade den gamla, «ni hör nu sjelf, det har blifvit en vana; men nu må hon fortsätta sjelf!»</p>

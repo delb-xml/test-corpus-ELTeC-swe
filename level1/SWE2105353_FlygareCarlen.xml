@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE2105353" xml:lang="sw">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE2105353" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -3320,9 +3317,9 @@
 <p>Middagen var förbi, Anton som vanligt ute och Haraldson i sin kammare, der han tog sin lur på maten. Hvarje ögonblick kunde jakten komma. Och sedan Gabriella påtagit den vackra nya klädningen och flygtigt beundrat hur den klädde henne, ställde hon sig med högt klappande hjerta vid fönstret i sin kammare.</p>
 <p>Nu voro alla tankar på Rosenberg förgätna, på allt, så väl det förflutna som det framtida; endast kärleken och Arnman gaf lif åt de flygande pulsarne. Men tiden förgick, hon hörde sin far gå i kammardörren, och nu måste hon gå ner, för att slå i kaffe.</p>
 <p>”Se här, pappa, jag har passat min nya klädning, för att ha något, att roa mig med i ensligheten; tycker inte pappa att den är vacker?” frågade hon och vände sig på tå framför gubben.</p><pb n="696"/>
-<p>”Åh jo, mycket vacker; det är bara skada att du inte fick visa dig i stan! Men om du vill, skall du få följa med på makril-dörje<ref target="#SWE2105353_N1"/><ref target="#SWE2105353_N1"/> i qväll? Jag tar ett par af karlarne med mig.”</p>
+<p>”Åh jo, mycket vacker; det är bara skada att du inte fick visa dig i stan! Men om du vill, skall du få följa med på makril-dörje<ref target="#SWE2105353_N1"/> i qväll? Jag tar ett par af karlarne med mig.”</p>
 <p>”Det vore allt roligt, pappa lilla! Men nu är det så att jag väntar Lena hit. Jag har lofvat klippa till en klädning åt henne.”</p>
-<p>”Så så, det var bra; då får du någon att språka med. Tratta nu lite konjak på resflaskan och lägg in lite merafta<ref target="#SWE2105353_N2"/><ref target="#SWE2105353_N2"/>, för jag har sagt till om båten!”</p>
+<p>”Så så, det var bra; då får du någon att språka med. Tratta nu lite konjak på resflaskan och lägg in lite merafta<ref target="#SWE2105353_N2"/>, för jag har sagt till om båten!”</p>
 <p>”Straxt, pappa!” Gabriella vidrörde knappt golfvet. Allt gick ju så förträffligt i lag. Och ehuru det var sannt att Lena begärt få en klädning tillklippt, var det likväl icke sagdt att hon skulle komma just i dag; men gjorde hon det, finge hon väl lemna tyget qvar till lägligare tid.</p>
 <p>Fortare än Haraldson någonsin blifvit betjenad, var allt färdigt och i båten. Under tillönskan att Lena snart måtte komma och roa hans skatt, reste gubben af, och Gabriella stod på bryggan, vinkade med näsduken och ropade: ”Adjö, pappa lilla! Välkommen snart hem!” Men hennes ögon spanade åt annat håll och upptäckte äfven, <pb n="697"/> sedan dörjebåten vikit om udden, en rörlig punkt i fjerran, hvilken hennes hjerta sade henne måste vara tulljakten.</p>
 <p>Gabriella missräknade sig icke. En halftimma senare sprang Arnman upp på bryggan och straxt derefter in i dagliga rummet.</p>
