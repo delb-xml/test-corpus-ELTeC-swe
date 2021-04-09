@@ -23,7 +23,7 @@ All texts included in this collection are in the public domain. The textual mark
 
 ## Citation suggestion
 
-*Swedish Novel Collection (ELTeC-swe)*, edited by Ljubica Miočević & Cai Alfredson. In: *European Literary Text Collection* (ELTeC). COST Action *Distant Reading for European Literature*. Version 0.1.0, November 13, 2020. URL: https://github.com/COST-ELTeC/ELTeC-swe. 
+*Swedish Novel Collection (ELTeC-swe)*, edited by Ljubica Miočević & Cai Alfredson. Version v0.7.0. In: *European Literary Text Collection* (ELTeC). COST Action *Distant Reading for European Literature*. November 13, 2020. URL: https://github.com/COST-ELTeC/ELTeC-swe. 
 
 ## Acknowledgements
 
