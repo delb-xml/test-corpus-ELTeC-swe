@@ -8,6 +8,7 @@ This is the Swedish novel collection for ELTeC, the European Literary Text Colle
 
 General information about ELTeC releases is available at https://github.com/COST-ELTeC/ELTeC.
 
+* v0.7.1: This is a minor upgrade affecting only the header / metadata. DOI: https://doi.org/10.5281/zenodo.4679350. 
 * v0.7.0: This release of the ELTeC-swe collection contains 58 novels encoded at level 1. The current release is a selection of Swedish novels, originally published between 1840 and 1920. The novels were selected from the existing e-texts produced by The Swedish Literature Bank (Litteraturbanken.se); the coding was adapted to the needs of ELTeC. DOI: https://doi.org/10.5281/zenodo.4271681. 
 
 ## Contributors
@@ -23,7 +24,7 @@ All texts included in this collection are in the public domain. The textual mark
 
 ## Citation suggestion
 
-*Swedish Novel Collection (ELTeC-swe)*, edited by Ljubica Miočević & Cai Alfredson. Version v0.7.0. In: *European Literary Text Collection* (ELTeC). COST Action *Distant Reading for European Literature*. November 13, 2020. URL: https://github.com/COST-ELTeC/ELTeC-swe. 
+*Swedish Novel Collection (ELTeC-swe)*, edited by Ljubica Miočević & Cai Alfredson. Version v0.7.1. In: *European Literary Text Collection* (ELTeC). COST Action *Distant Reading for European Literature*. April 11, 2021. URL: https://github.com/COST-ELTeC/ELTeC-swe. DOI: https://doi.org/10.5281/zenodo.4679350. 
 
 ## Acknowledgements
 
