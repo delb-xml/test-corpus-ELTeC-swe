@@ -3,7 +3,7 @@
             schematypens="http://relaxng.org/ns/structure/1.0"?>
     <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE1205720" xml:lang="sw">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SWE120.7.1" xml:lang="sw">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -26,7 +26,7 @@
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.4271663">ELTeC-swe</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271681">ELTeC-swe release 0.7.1</ref>
 </publicationStmt>
    
    <sourceDesc><bibl type="digitalSource">
@@ -35,7 +35,7 @@
     </bibl><bibl type="firstEdition">
      <title>Berta Funcke. Berättelse</title>
      <publisher>Jos. Seligmann &amp; C:is förlag, Stockholm <date>1885.</date></publisher>
-     <idno type="libris">https://libris.kb.se/bib/1205720</idno>
+     <idno type="libris">https://libris.kb.se/bib/120.7.1</idno>
      <!--  <ref target="http://example.com/thisbook.pdf">PDF version</ref> -->
      <note>Det exemplar som ligger till grund för Litteraturbankens utgåva tillhör Göteborgs universitetsbibliotek (Litt. Sv.).</note>    
     </bibl></sourceDesc>
